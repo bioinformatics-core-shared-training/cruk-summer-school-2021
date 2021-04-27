@@ -1,5 +1,5 @@
 
-**July 22nd - 28th 2020**
+**July 21st - 27th 2021**
 
 # For [Course materials and detailed timetable visit here](https://bioinformatics-core-shared-training.github.io/cruk-summer-school-2020/)
 
@@ -81,5 +81,5 @@
 
 - 12:30 - 13:30; LUNCH BREAK
 
-** End of CRUK CC Bioinformatics Summer School 2020**
+** End of CRUK CC Bioinformatics Summer School 2021**
 -------------------------------------------------------------
