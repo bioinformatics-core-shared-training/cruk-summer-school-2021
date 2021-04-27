@@ -1,4 +1,4 @@
-CRUK Workshop on Functional Genomics - summer school 2020
+CRUK Workshop on Functional Genomics - summer school 2021
 
 https://bioinformatics-core-shared-training.github.io/cruk-summer-school-2020/
 
