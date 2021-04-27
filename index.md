@@ -1,6 +1,6 @@
 # CRUK Bioinformatics Summer School 2021: Functional Genomics
 <img src="CRUK_CC_web.jpg" alt="CRUK Cambdridge Centre" width="200" align="right"/>.  
-**21st - 27th July 2020: Zoom virtual school, University of Cambridge**
+**21st - 27th July 2021: Zoom virtual school, University of Cambridge**
 
 Site short-cut: https://tinyurl.com/crukss2020
 
