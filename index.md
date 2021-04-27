@@ -1,6 +1,6 @@
-# CRUK Bioinformatics Summer School 2020: Functional Genomics
+# CRUK Bioinformatics Summer School 2021: Functional Genomics
 <img src="CRUK_CC_web.jpg" alt="CRUK Cambdridge Centre" width="200" align="right"/>.  
-**22nd - 28th July 2020: Zoom virtual school, University of Cambridge**
+**21st - 27th July 2020: Zoom virtual school, University of Cambridge**
 
 Site short-cut: https://tinyurl.com/crukss2020
 
@@ -53,7 +53,7 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 - Cathy Hemmings. 
 - Paul Judge.  
 **CRUK Cambridge Centre**.  
-- Louisa Bellis.     
+- Birgitta Olofsson.     
 - Justin Holt.    
 
 
@@ -73,7 +73,7 @@ After the course you should be able to:-
 - Produce a list of differentially expressed genes from an RNA-Seq experiment.
 - Import a set of ChIP-Seq peaks and investigate their biological context.
 
-# Day 0 (July 21st )
+# Day 0 (July 2oth )
 
 **SOCIAL
 18:00 - ..
@@ -81,7 +81,7 @@ Informal get-together on Zoom with optional pub-quiz. Meet fellow attendees and 
 
 School Shared document is [here](https://docs.google.com/document/d/1UDB3l7p7dScvxXEP3x8geiUWYj4ZeOp8x5tXq5Qe8YQ/edit) **
 
-# Day 1 (July 22nd)
+# Day 1 (July 21st)
 
 __Zoom Virtual Training room__.  
  **July 22nd - 28th 2020**
@@ -107,7 +107,7 @@ __Zoom Virtual Training room__.
 
 <hr>
  
-# Day 2 (July 23rd)
+# Day 2 (July 22nd)
 
 - 09:30 - 17:00; Bulk RNAseq
   + [Introduction to RNAseq Analysis in R](RNAseq/html/01_Introduction_to_Differential_Gene_Expression_Analysis_in_R.html) - Ash Sawle 
@@ -124,7 +124,7 @@ __Zoom Virtual Training room__.
 
 <hr>
 
-# Day 3 (July 24th)
+# Day 3 (July 23rd)
 
 - 09:30 - 12:30;  Bulk RNAseq
   + [Annotation and Visualisation of RNA-seq results](RNAseq/html/05_Annotation_and_Visualisation.html) - Ash Sawle  
@@ -164,7 +164,7 @@ Introduction_to_Single_Cell_RNAseq.pdf)
 [WORK: For those wanting an R course with extensive use of Tidyverse](https://bioinformatics-core-shared-training.github.io/bite-size-r-intermediate/)
 
 
-# Day 4 (July 27th)
+# Day 4 (July 26th)
 
 - 09:30 - 17:00; Single Cell RNAseq (cont.) (Stephane & Zeynep)
     + [scRNA-seq - normalisation](scRNAseq/html/normalisation_GSM3872434_simple.html) [Rmd](scRNAseq/Scripts/normalisation_GSM3872434_simple.Rmd)
@@ -188,7 +188,7 @@ Introduction_to_Single_Cell_RNAseq.pdf)
 - 12:30 - 13:30; LUNCH BREAK
 
 <hr>
-# Day 5 (July 28th)
+# Day 5 (July 27th)
 
 - 09:30 - 17:00; 
 - ChIP-seq data analysis
