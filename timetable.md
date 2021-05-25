@@ -28,24 +28,25 @@
     
 - 12:30 - 13:30; LUNCH BREAK
 
-- 13:30 - 17:00; Bulk RNAseq (Ash, Abbi & Chandu)
+- 13:30 - 17:00; Bulk RNAseq
     + Introduction to RNAseq Analysis in R
-    + RNA-seq Pre-processing 
+    + Quantification of Gene Expression with Salmon
+    + Initial exploration of RNA-seq data 
     
 # Day 2
 
-- 09:30 - 17:00; Bulk RNAseq Continued (Ash, Dom & Chandu)
-    + Statistical Analysis of Bulk RNAseq Data (Dom)
-    + Experimental Design of Bulk RNAseq studies (Chandu)
-    + Differential Expression for RNA-seq  (Ash)
+- 09:30 - 17:00; Bulk RNAseq (continued)  
+    + Statistical Analysis of Bulk RNAseq Data 
+    + Experimental Design of Bulk RNAseq studies 
+    + Differential Expression for RNA-seq  
     
 - 12:30 - 13:30; LUNCH
 
 # Day 3
 
-- 09:30 - 12:30; Bulk RNAseq (cont.) (Ash & Abi)
-    + Annotation and Visualisation of RNA-seq results (Abbi)
-    + Gene-set testing (Ash)
+- 09:30 - 12:30; Bulk RNAseq (continued) 
+    + Annotation and Visualisation of RNA-seq results 
+    + Gene-set testing 
 
 - 12:30 - 13:30; LUNCH BREAK
 
