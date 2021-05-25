@@ -41,7 +41,7 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 - [Stephane Ballereau (CRUK CI)](https://www.cruk.cam.ac.uk/author/stephane-ballereau).      
 - [Zeynep Kalender Atak(CRUK CI)](http://www.miller-lab.org/cv_zka.html).  
 - [Chandra Sekhar Reddy Chilamakuri (CRUK CI)](https://www.cruk.cam.ac.uk/author/chandra-chilamakuri).  
-- [Hugo Tavares]()
+- [Hugo Tavares](https://www.slcu.cam.ac.uk/people/tavares-hugo)
 - [Katarzyna Kania (CRUK CI)](https://www.cruk.cam.ac.uk/author/katarzyna-kania).  
 - [Mark Fernandes (CRUK CI)](https://www.cruk.cam.ac.uk/author/mark-fernandes). 
 
