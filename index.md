@@ -2,7 +2,7 @@
 <img src="CRUK_CC_web.jpg" alt="CRUK Cambdridge Centre" width="200" align="right"/>.  
 **21st - 27th July 2021: Zoom virtual school, University of Cambridge**
 
-Site short-cut: https://tinyurl.com/crukss2020
+Site short-cut: tinyurl.com/crukss2021
 
 ## Overview
 
@@ -32,19 +32,23 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 
 ### Instructors & helpers
 
-- [Mark Fernandes (CRUK CI)](https://www.cruk.cam.ac.uk/author/mark-fernandes). 
 - [Rory Stark (CRUK CI)](https://www.cruk.cam.ac.uk/author/rory-stark).  
-- [Shoko Hirosue (MRC CU)](https://www.samarajiwa-lab.org/shokohirosue). 
-- [Joanna Krupka (MRC CU)](https://www.samarajiwa-lab.org/joannakrupka).  
+- [Shamith Samarajiwa (MRC CU](https://www.samarajiwa-lab.org/shamithsamarajiwa)
+- [Izzy Newsham (MRC CU)](https://www.samarajiwa-lab.org/izzynewsham). 
+- [Junfan Huang (MRC CU)](https://www.samarajiwa-lab.org/junfanhuang).  
 - [Ashley Sawle (CRUK CI)](https://www.cruk.cam.ac.uk/author/ashley-sawle).  
 - [Abigail Edwards (CRUK CI](https://www.cruk.cam.ac.uk/author/abigail-edwards).  
-- [Stephane Ballereau (CRUK CI)](https://www.cruk.cam.ac.uk/author/stephane-ballereau).     
-- [Dominique-Laurent Couturier(CRUK CI)](https://www.cruk.cam.ac.uk/author/dominique-laurent-couturier).   
+- [Stephane Ballereau (CRUK CI)](https://www.cruk.cam.ac.uk/author/stephane-ballereau).      
 - [Zeynep Kalender Atak(CRUK CI)](http://www.miller-lab.org/cv_zka.html).  
 - [Chandra Sekhar Reddy Chilamakuri (CRUK CI)](https://www.cruk.cam.ac.uk/author/chandra-chilamakuri).  
+- [Hugo Tavares]()
+- [Katarzyna Kania (CRUK CI)](https://www.cruk.cam.ac.uk/author/katarzyna-kania).  
+- [Mark Fernandes (CRUK CI)](https://www.cruk.cam.ac.uk/author/mark-fernandes). 
+
 - [Gordon Brown(CRUK CI)](https://www.cruk.cam.ac.uk/author/gordon-brown).  
 - [Matthew Eldridge (CRUK CI)](https://www.cruk.cam.ac.uk/author/matthew-eldridge).  
-- [Katarzyna Kania (CRUK CI)](https://www.cruk.cam.ac.uk/author/katarzyna-kania).  
+- [Dominique-Laurent Couturier(CRUK CI)](https://www.cruk.cam.ac.uk/author/dominique-laurent-couturier).  
+
 
 ### Support Team
 
@@ -145,7 +149,7 @@ Introduction_to_Single_Cell_RNAseq.pdf)
     + [scRNA-seq - alignment and cellranger](scRNAseq/html/cellRanger.html)
     + [scRNA-seq - preprocessing, inc cell calling](scRNAseq/html/preProc.html) [Rmd](scRNAseq/Scripts/preProc.Rmd)
     
-**6pm SOCIAL: Zoom Talk: “Perspectives in AI for Cancer Bioinformatics by Rory Stark”. **
+**6pm SOCIAL: Zoom Talk: “{Collaborating with your local Bioinformatician} by Rory Stark”. **
  
 <hr>
 
@@ -203,7 +207,7 @@ Introduction_to_Single_Cell_RNAseq.pdf)
  
 - 12:30 - 13:30; LUNCH BREAK
 
-## Please don't forget to fill in the [survey]( https://www.surveymonkey.co.uk/r/X3T832H )   Corrected 28.7/2020
+## Please don't forget to fill in the [survey]( _https://www.surveymonkey.co.uk/r/X3T832H_ )   Corrected 28.7/2020
 
 <hr>
 
