@@ -50,10 +50,14 @@
 
 - 12:30 - 13:30; LUNCH BREAK
 
-- 13:30 - 17:00; Single Cell RNAseq (Stephane, & Kasia)
-    + scRNA-seq - introduction, inc design
-    + scRNA-seq - preprocessing, inc cell calling
-    + scRNA-seq - normalisation, visualisation, batch correction
+- 13:30 - 17:30; Single Cell RNAseq (Stephane, Kasia, Ash)
+    + 13:30 opening <!-- Stephane -->
+    + 13:30 - 14:15 Introduction <!-- []() --> <!-- Kania - lecture -->
+    + 14:15 - 14:30 Preamble: data set and workflow <!-- []() --> <!-- Stephane - 'lecture' -->
+    + 14:30 - 15:55 library structure, cellranger for alignment and cell calling, preprocessing <!-- []() --> <!-- Ash -->
+    + 15:55 - 16:05 **10 min break**
+    + 16:05 - 17:30 normalisation <!-- []() --> <!-- Stephane -->
+
     
 **6pm SOCIAL: Zoom Talk: “Collaborating with a Bioinformatician by Rory Stark”. **
 
@@ -61,13 +65,21 @@
 
 # Day 4
 
-- 09:30 - 17:00; Single Cell RNAseq (cont.) (Stephane & Zeynep)
-    + scRNA-seq - feature selection and dimension reduction
-    + scRNA-seq - clustering and marker gene detection 
-    + scRNA-seq - differential expression and differential abundance 
-    
+- 09:30 - 12:30; Single Cell RNAseq (cont.) (Zeynep, Abbi)
+    + 09:30 - 10:55 dimensionality reduction, identification of confounding factors, feature selection <!-- []() --> <!-- Zeynep -->
+    + 10:55 - 11:05 **10 min break**
+    + 11:05 - 12:30 batch correction and data set integration <!-- []() --> <!-- Abbi -->
+
 - 12:30 - 13:30; LUNCH BREAK
-  
+
+- 13:30 - 17:30; Single Cell RNAseq (cont.) (Stephane, Zeynep)
+    + 13:30 - 14:30 clustering <!-- []() --> <!-- Stephane -->
+    + 14:30 - 15:25 cluster marker genes <!-- []() --> <!-- Zeynep -->
+    + 15:25 - 15:35 **10 min break**
+    + 15:35 - 16:30 differential expression and abundance between conditions <!-- []() --> <!-- Stephane -->
+    + 16:30 - 17:30 trajectories <!-- []() --> <!-- Zeynep -->
+    + 17:30 closing <!-- Stephane -->
+    
 # Day 5 
 
 - 09:30 - 17:00; ChIPseq (Joanna & Shoko)
