@@ -77,7 +77,7 @@ After the course you should be able to:-
 - Produce a list of differentially expressed genes from an RNA-Seq experiment.
 - Import a set of ChIP-Seq peaks and investigate their biological context.
 
-# Day 0 (July 2oth )
+# Day 0 (July 20th )
 
 **SOCIAL
 18:00 - ..
