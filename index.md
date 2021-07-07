@@ -165,7 +165,7 @@ Introduction_to_Single_Cell_RNAseq.pdf)
 
 [SOCIAL: Virtual tour of Cambridge University Botanical Gardens](https://youtu.be/MyCGUi0WKN4)
 
-[SOCIAL/WORK: Virtual tour of CRUK Cambridge Institute](https://poly.google.com/view/bjq4wL5U1Fo)
+[SOCIAL/WORK: Virtual tour of CRUK Cambridge Institute](https://www.cruk.cam.ac.uk/operations/scientific-administration/institute-virtual-tour)
 
 [SOCIAL: Aeriel 360 panoramas of Cambridge venues](https://www.xcopters.co.uk/virtualtours.html)
 
