@@ -101,16 +101,16 @@ __Zoom Virtual Training room__.
 
 - 13:30 - 17:00; Bulk RNAseq  
 
-13:30 - 14:00  [Introduction to RNAseq Methods](Markdowns/01_Introduction_to_RNAseq_Methods.html) - Ashley Sawle  
+- 13:30 - 14:00  [Introduction to RNAseq Methods](Markdowns/01_Introduction_to_RNAseq_Methods.html) - Ashley Sawle  
 
 - 14:00 - 15:00 [Quantification of Gene Expression with Salmon](Markdowns/05_Quantification_with_Salmon_introduction.html) - Ashley Sawle  
-    + [Practical](Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](Markdowns/05_Quantification_with_Salmon_practical.pdf))  
-    + [Practical solutions](Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf))
+    <!-- + [Practical](Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](Markdowns/05_Quantification_with_Salmon_practical.pdf))  -->
+    <!-- + [Practical solutions](Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf)) -->
 
  - 15:00 - 17:00 - [RNA-seq 
 Data Exploration](Markdowns/07_Data_Exploration.html) ([pdf](Markdowns/07_Data_Exploration.pdf)) - Chandra Chilamakuri   
-   + [Practical solutions](Markdowns/07_Data_Exploration.Solutions.html) ([pdf](Markdowns/07_Data_Exploration.Solutions.pdf))  
-   + [Chandu's Live Script](live_scripts/Data_Exploration.R)  
+   <!-- + [Practical solutions](Markdowns/07_Data_Exploration.Solutions.html) ([pdf](Markdowns/07_Data_Exploration.Solutions.pdf))  -->
+   <!-- + [Chandu's Live Script](live_scripts/Data_Exploration.R)  -->
 
   + [Extended Material](RNAseq/Extended_index.md)
 
@@ -127,10 +127,9 @@ Data Exploration](Markdowns/07_Data_Exploration.html) ([pdf](Markdowns/07_Data_E
 - 13:00 - 14:00; LUNCH BREAK
 
 - 14:00 - 17:00 [Differential Expression for RNA-seq](Markdowns/10_DE_analysis_with_DESeq2.html) ([pdf](Markdowns/10_DE_analysis_with_DESeq2.pdf)) - Ashley Sawle
-     + [practical solutions](Markdowns/10_DE_analysis_with_DESeq2.Solutions.html) ([pdf](Markdowns/10_DE_analysis_with_DESeq2.Solutions.html))   
-   - [Ash's Live Script](live_scripts/day3_DESeq2_session_v1.0.R)   
+    <!-- + [practical solutions](Markdowns/10_DE_analysis_with_DESeq2.Solutions.html) ([pdf](Markdowns/10_DE_analysis_with_DESeq2.Solutions.html))   -->
+    <!--+ [Ash's Live Script](live_scripts/day3_DESeq2_session_v1.0.R)  --> 
  
-12:15 - 13:15 Lunch
 <hr>
 
 # Day 3 (July 23rd)
@@ -138,13 +137,12 @@ Data Exploration](Markdowns/07_Data_Exploration.html) ([pdf](Markdowns/07_Data_E
 - 09:30 - 12:30;  Bulk RNAseq
 - 09:30 - 11:15 [Annotation and Visualisation of RNA-seq
 results](Markdowns/11_Annotation_and_Visualisation.html) ([pdf](Markdowns/11_Annotation_and_Visualisation.pdf)) - Abbi Edwards    
-    + [practical solutions](Markdowns/11_Annotation_and_Visualisation_Solutions.html)   
-    + [Abbi's Live Script](live_scripts/liveScript_AandV.R)   
+    <!-- + [practical solutions](Markdowns/11_Annotation_and_Visualisation_Solutions.html)   -->
+    <!-- + [Abbi's Live Script](live_scripts/liveScript_AandV.R)   -->
 
 - 11:15 - 12:30 [Gene-set testing](Markdowns/12_Gene_set_testing_introduction.html) - Stephane Ballereau    
-    + [Practical (html)](Markdowns/12_Gene_set_testing.html) [(rmd)](Markdowns/12_Gene_set_testing.Rmd) [(pdf)](Markdowns/12_Gene_set_testing.pdf) 
-    + [Practical solutions (html)](12_Gene_set_testing.Solutions.html) [(rmd)](Markdowns/12_Gene_set_testing.Solutions.Rmd) [(pdf)](Markdowns/12_Gene_set_testing.Solutions.pdf) 
-
+    <!-- + [Practical (html)](Markdowns/12_Gene_set_testing.html) [(rmd)](Markdowns/12_Gene_set_testing.Rmd) [(pdf)](Markdowns/12_Gene_set_testing.pdf) -->
+    <!-- + [Practical solutions (html)](12_Gene_set_testing.Solutions.html) [(rmd)](Markdowns/12_Gene_set_testing.Solutions.Rmd) [(pdf)](Markdowns/12_Gene_set_testing.Solutions.pdf) -->
 
 - 12:30 - 13:30; LUNCH
 - 13:30 - 17:00; Single Cell RNAseq (Stephane, & Kasia)
