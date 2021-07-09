@@ -102,11 +102,9 @@ __Zoom Virtual Training room__.
 - 13:30 - 17:00; Bulk RNAseq  
 
 - 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/01_Introduction_to_RNAseq_Methods.html) - Ashley Sawle  
-
 - 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) - Ashley Sawle  
     + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))
     <!-- + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf)) -->
-
  - 15:00 - 17:00 - [RNA-seq 
 Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.pdf)) - Chandra Chilamakuri   
    <!-- + [Practical solutions](RNAseq/Markdowns/07_Data_Exploration.Solutions.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.Solutions.pdf))  -->
@@ -122,7 +120,8 @@ Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markd
     + Part I: [Statistics of RNA-seq analysis](RNAseq/Markdowns/08_Stats.pdf) - Zeynep Kalender Atak  
     + Part II: [Linear Models in R and DESeq2](RNAseq/Markdowns/09_Linear_Models.html) ([pdf](RNAseq/Markdowns/09_Linear_Models.pdf)) - Hugo Tavares  
         + [Slides](https://docs.google.com/presentation/d/1FTP_gdOQ7sBQWZqTbkB97uUzZ57O9FTyVTgfQrqHPeg/edit?usp=sharing) ([live blackboard used during lecture](https://jamboard.google.com/d/1g2M7x_y91n9C35I3DzEPucX3nJexmqXPz8ail3cjLSs/edit?usp=sharing))
-        + Find the worksheet in `Course_Materials/stats/models_in_r_worksheet.R`
+        + Find the worksheet in 
+          `Course_Materials/RNAseq/stats/models_in_r_worksheet.R`
 
 - 13:00 - 14:00; LUNCH BREAK
 
@@ -139,7 +138,6 @@ Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markd
 results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Markdowns/11_Annotation_and_Visualisation.pdf)) - Abbi Edwards    
     <!-- + [practical solutions](RNAseq/Markdowns/11_Annotation_and_Visualisation_Solutions.html)   -->
     <!-- + [Abbi's Live Script](RNAseq/live_scripts/liveScript_AandV.R)   -->
-
 - 11:15 - 12:30 [Gene-set testing](RNAseq/Markdowns/12_Gene_set_testing_introduction.html) - Stephane Ballereau    
     <!-- + [Practical (html)](RNAseq/Markdowns/12_Gene_set_testing.html) [(rmd)](RNAseq/Markdowns/12_Gene_set_testing.Rmd) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.pdf) -->
     <!-- + [Practical solutions (html)](12_Gene_set_testing.Solutions.html) [(rmd)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.Rmd) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.pdf) -->
