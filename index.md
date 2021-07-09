@@ -143,13 +143,17 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     <!-- + [Practical solutions (html)](12_Gene_set_testing.Solutions.html) [(rmd)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.Rmd) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.pdf) -->
 
 - 12:30 - 13:30; LUNCH
-- 13:30 - 17:00; Single Cell RNAseq (Stephane, & Kasia)
-    + [scRNA-seq - introduction, inc design - PDF version](scRNAseq/
-Introduction_to_Single_Cell_RNAseq.pdf)
-    + [scRNA-seq - preamble](scRNAseq/html/index2.nb.html)
-    + [scRNA-seq - sequencing QC](scRNAseq/html/seqQual.nb.html)
-    + [scRNA-seq - alignment and cellranger](scRNAseq/html/cellRanger.html)
-    + [scRNA-seq - preprocessing, inc cell calling](scRNAseq/html/preProc.html) [Rmd](scRNAseq/Scripts/preProc.Rmd)
+
+- 13:30 - 17:00; Single Cell RNAseq  
+- 13:30 opening <!-- Stephane -->
+- 13:30 - 14:15 Introduction <!-- []() --> <!-- Kasia - lecture -->
+- 14:15 - 14:30 Preamble: data set and workflow <!-- []() --> <!-- Stephane - 'lecture' -->
+- 14:30 - 15:55 Library structure, cellranger for alignment and cell calling, preprocessing - Ashley Sawle
+    + [Slides](scRNAseq/Slides/CellRangerSlides.html)  
+    + [QC and preprocessing](scRNAseq/Markdowns/proProc.html)     
+- 15:55 - 16:05 **10 min break**
+- 16:05 - 17:30 normalisation <!-- []() --> <!-- Stephane -->
+    
     
 **6pm SOCIAL: Zoom Talk: “{Collaborating with your local Bioinformatician} by Rory Stark”. **
  
@@ -170,25 +174,18 @@ Introduction_to_Single_Cell_RNAseq.pdf)
 [WORK: For those wanting an R course with extensive use of Tidyverse](https://bioinformatics-core-shared-training.github.io/bite-size-r-intermediate/)
 
 
-# Day 4 (July 26th)
+# Day 4 (July 26th) Single Cell RNAseq continued 
 
-- 09:30 - 17:00; Single Cell RNAseq (cont.) (Stephane & Zeynep)
-    + [scRNA-seq - normalisation](scRNAseq/html/normalisation_GSM3872434_simple.html) [Rmd](scRNAseq/Scripts/normalisation_GSM3872434_simple.Rmd)
-    + [scRNA-seq - dimension reduction for visualisation](scRNAseq/html/dimRedForViz.nb.html) [Rmd](dimRedForViz.Rmd)
-    + [scRNA-seq - detecting confounding factors](scRNAseq/html/confounding_caron.nb.html) [Rmd](confounding_caron.Rmd)
-    + [scRNA-seq - feature selection](scRNAseq/html/featSelec.nb.html) [Rmd](scRNAseq/Scripts/featSelec.Rmd)
-    + [scRNA-seq - batch correction](scRNAseq/html/batch_GSM3872442.nb.html) [Rmd](scRNAseq/Scripts/batch_GSM3872442.Rmd)
-    + [scRNA-seq - dimensionality reduction for analysis](scRNAseq/html/dimRedForAna.nb.html) [Rmd](dimRedForAna.Rmd)
-    + [scRNA-seq - clustering](scRNAseq/html/clustering.nb.html) [Rmd](clustering.Rmd)
-    + [scRNA-seq - marker gene identification](scRNAseq/html/clusterMarkerGenes.nb.html) [Rmd](clusterMarkerGenes.Rmd)
-    + [scRNA-seq - cell cycle assignment](scRNAseq/html/cellCyclePhases.nb.html) [Rmd](cellCyclePhases.Rmd)
-    + [scRNA-seq - data set integration - PBMMC](scRNAseq/html/dataSetIntegration_PBMMC.nb.html) [Rmd](dataSetIntegration.Rmd)
-    + [scRNA-seq - data set integration - whole](scRNAseq/html/dataSetIntegrationWhole_1kCps.nb.html) [Rmd](dataSetIntegrationWhole.Rmd)
-    + [scRNA-seq - diff exp between condition](scRNAseq/html/multiSplComp.nb.html) [Rmd](scRNAseq/Scripts/multiSplComp.Rmd)
-    + [scRNA-seq - trajectory analysis - 1](scRNAseq/html/01_Extract_Tcells.nb.html) [Rmd](scRNAseq/Scripts/01_Extract_Tcells.Rmd)
-    + [scRNA-seq - trajectory analysis - 2](scRNAseq/html/02_Pseudotime_Analysis.nb.html) [Rmd](scRNAseq/Scripts/02_Pseudotime_Analysis.Rmd)
-    + [scRNA-seq - trajectory analysis - 3](scRNAseq/html/03_Pseudotime_alignment.nb.html) [Rmd](scRNAseq/Scripts/03_Pseudotime_alignment.Rmd)
-    + [scRNA-seq - doublet detection](scRNAseq/html/doubletDetect.nb.html) [Rmd](scRNAseq/Scripts/doubletDetect.Rmd)
+- 09:30 - 10:55 Dimensionality reduction, identification of confounding factors, feature selection <!-- []() --> <!-- Zeynep -->
+- 10:55 - 11:05 **10 min break**
+- 11:05 - 12:30 Batch correction and data set integration <!-- []() --> <!-- Abbi -->
+- **12:30 - 13:30 LUNCH**
+- 13:30 - 14:30 Clustering <!-- []() --> <!-- Stephane -->
+- 14:30 - 15:25 Cluster marker genes <!-- []() --> <!-- Zeynep -->
+- 15:25 - 15:35 **10 min break**
+- 15:35 - 16:30 Differential expression and abundance between conditions <!-- []() --> <!-- Stephane -->
+- 16:30 - 17:30 Trajectories <!-- []() --> <!-- Zeynep -->
+- 17:30 Closing <!-- Stephane --> <!-- mentimeter -->
 
 
 - 12:30 - 13:30; LUNCH BREAK
