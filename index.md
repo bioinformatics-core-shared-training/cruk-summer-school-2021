@@ -103,7 +103,7 @@ __Zoom Virtual Training room__.
 
 - 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/01_Introduction_to_RNAseq_Methods.html) - Ashley Sawle  
 - 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) - Ashley Sawle  
-    + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))
+    + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))  
     <!-- + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf)) -->
  - 15:00 - 17:00 - [RNA-seq 
 Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.pdf)) - Chandra Chilamakuri   
