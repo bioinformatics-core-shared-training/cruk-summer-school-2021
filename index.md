@@ -82,7 +82,7 @@ After the course you should be able to:-
 18:00 - ..
 Informal get-together on Zoom with optional pub-quiz. Meet fellow attendees and some of your trainers.    
 
-School Shared document is [here](https://docs.google.com/document/d/1UDB3l7p7dScvxXEP3x8geiUWYj4ZeOp8x5tXq5Qe8YQ/edit) **
+School Shared document is [here](https://docs.google.com/document/d/10WM0ZPMbgnTyGgqXO8N7XNSDGQxXGzQCVvSTfjES3tk/edit) **
 
 # Day 1 (July 21st)
 
