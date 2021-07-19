@@ -192,12 +192,10 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
     + [Practical](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
-
 - 15:25 - 15:35 **10 min break**
-- 15:35 - 16:30 Differential expression and abundance between conditions <!-- []() --> <!-- Stephane -->
-- 16:30 - 17:30 Trajectories <!-- []() --> <!-- Zeynep -->
-- 17:30 Closing <!-- Stephane --> <!-- mentimeter -->
+- 15:35 - 16:30 Differential expression and abundance between conditions Stephane Ballereau
 
+- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep
 
 - 12:30 - 13:30; LUNCH BREAK
 
