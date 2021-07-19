@@ -105,9 +105,9 @@ __Zoom Virtual Training room__.
     + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))  
     <!-- + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf)) -->
  - 15:00 - 17:00 - [RNA-seq 
-Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.pdf)) - Chandra Chilamakuri   
+Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.pdf)) - Ashley Sawle   
    <!-- + [Practical solutions](RNAseq/Markdowns/07_Data_Exploration.Solutions.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.Solutions.pdf))  -->
-   <!-- + [Chandu's Live Script](RNAseq/live_scripts/Data_Exploration.R)  -->
+   <!-- + [Ashley's Live Script](RNAseq/live_scripts/Data_Exploration.R)  -->
 
   + [Extended Material](RNAseq/Extended_index.md)
 
