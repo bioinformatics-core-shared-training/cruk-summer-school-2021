@@ -37,17 +37,16 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 - [Izzy Newsham (MRC CU)](https://www.samarajiwa-lab.org/izzynewsham). 
 - [Junfan Huang (MRC CU)](https://www.samarajiwa-lab.org/junfanhuang).  
 - [Ashley Sawle (CRUK CI)](https://www.cruk.cam.ac.uk/author/ashley-sawle).  
-- [Abigail Edwards (CRUK CI](https://www.cruk.cam.ac.uk/author/abigail-edwards).  
+- [Abigail Edwards (CRUK CI)](https://www.cruk.cam.ac.uk/author/abigail-edwards).  
+- [on Price (Gurdon Institute, Cambridge)](https://www.ericmiskalab.org/people/).  
+- [Kamal Kishore (CRUK CI)](https://www.cruk.cam.ac.uk/author/kamal-kishore).
 - [Stephane Ballereau (CRUK CI)](https://www.cruk.cam.ac.uk/author/stephane-ballereau).      
 - [Zeynep Kalender Atak(CRUK CI)](http://www.miller-lab.org/cv_zka.html).  
 - [Chandra Sekhar Reddy Chilamakuri (CRUK CI)](https://www.cruk.cam.ac.uk/author/chandra-chilamakuri).  
 - [Hugo Tavares (Bioinformatics Training Facility, Dept of Genetics, CU)](https://www.slcu.cam.ac.uk/people/tavares-hugo)
 - [Katarzyna Kania (CRUK CI)](https://www.cruk.cam.ac.uk/author/katarzyna-kania).  
 - [Mark Fernandes (CRUK CI)](https://www.cruk.cam.ac.uk/author/mark-fernandes). 
-
-- [Gordon Brown(CRUK CI)](https://www.cruk.cam.ac.uk/author/gordon-brown).  
 - [Matthew Eldridge (CRUK CI)](https://www.cruk.cam.ac.uk/author/matthew-eldridge).  
-- [Dominique-Laurent Couturier(CRUK CI)](https://www.cruk.cam.ac.uk/author/dominique-laurent-couturier).  
 
 
 ### Support Team
