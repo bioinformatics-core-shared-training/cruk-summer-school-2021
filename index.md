@@ -205,8 +205,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
  
 - 12:30 - 13:30; LUNCH BREAK
 
-## Please don't forget to fill in the [survey]( _https://www.surveymonkey.co.uk/r/X3T832H_ )   Corrected 28.7/2020
-
+## Please don't forget to fill in the [survey](  )   Link will appear here towards end of Summer School
 <hr>
 
 <!--
