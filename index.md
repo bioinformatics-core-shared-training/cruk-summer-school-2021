@@ -38,7 +38,7 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 - [Junfan Huang (MRC CU)](https://www.samarajiwa-lab.org/junfanhuang).  
 - [Ashley Sawle (CRUK CI)](https://www.cruk.cam.ac.uk/author/ashley-sawle).  
 - [Abigail Edwards (CRUK CI)](https://www.cruk.cam.ac.uk/author/abigail-edwards).  
-- [on Price (Gurdon Institute, Cambridge)](https://www.ericmiskalab.org/people/).  
+- [Jon Price (Gurdon Institute, Cambridge)](https://www.ericmiskalab.org/people/).  
 - [Kamal Kishore (CRUK CI)](https://www.cruk.cam.ac.uk/author/kamal-kishore).
 - [Stephane Ballereau (CRUK CI)](https://www.cruk.cam.ac.uk/author/stephane-ballereau).      
 - [Zeynep Kalender Atak(CRUK CI)](http://www.miller-lab.org/cv_zka.html).  
