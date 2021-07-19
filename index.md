@@ -144,14 +144,18 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 12:30 - 13:30; LUNCH
 
 - 13:30 - 17:00; Single Cell RNAseq  
-- 13:30 opening <!-- Stephane -->
-- 13:30 - 14:15 Introduction <!-- []() --> <!-- Kasia - lecture -->
-- 14:15 - 14:30 Preamble: data set and workflow <!-- []() --> <!-- Stephane - 'lecture' -->
+- 13:30 - 14:15 Introduction <!-- []() --> Katarzyna Kania 
+- 14:15 - 14:30 Preamble: data set and workflow <!-- []() --> Stephane Ballereau
 - 14:30 - 15:55 Library structure, cellranger for alignment and cell calling, preprocessing - Ashley Sawle
     + [Slides](scRNAseq/Slides/CellRangerSlides.html)  
-    + [QC and preprocessing](scRNAseq/Markdowns/proProc.html)     
+        + [Notes](scRNAseq/Markdowns/cellRanger.html)  
+    + [QC and preprocessing](scRNAseq/Markdowns/preProc.html)     
+    <!-- + [Exercise Solutions](scRNAseq/Markdowns/preProc.Exercise.Solution.html) -->
 - 15:55 - 16:05 **10 min break**
-- 16:05 - 17:30 normalisation <!-- []() --> <!-- Stephane -->
+- 16:05 - 17:30 Normalisation - Stephane Ballereau
+    + [Slides](scRNAseq/Slides/normalisation_lec.html)  
+    + [Practical](scRNAseq/Markdowns/normalisation_5hCellPerSpl_caron.html)     
+    <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
     
     
 **6pm SOCIAL: Zoom Talk: “{Collaborating with your local Bioinformatician} by Rory Stark”. **
@@ -173,14 +177,22 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 [WORK: For those wanting an R course with extensive use of Tidyverse](https://bioinformatics-core-shared-training.github.io/bite-size-r-intermediate/)
 
 
-# Day 4 (July 26th) Single Cell RNAseq continued 
+# Day 4 (July 26th) Single Cell RNAseq continued   
 
-- 09:30 - 10:55 Dimensionality reduction, identification of confounding factors, feature selection <!-- []() --> <!-- Zeynep -->
+- 09:30 - 10:55 (Dimensionality reduction, identification of confounding factors, feature selection)[scRNAseq/Markdowns/dimRedFeatSel_2021.html] - Zeynep Kalender Atak  
 - 10:55 - 11:05 **10 min break**
-- 11:05 - 12:30 Batch correction and data set integration <!-- []() --> <!-- Abbi -->
+- 11:05 - 12:30 Batch correction and data set integration - Abigail Edwards
+    + [Slides](scRNAseq/Slides/DataIntergrationAndBatchCorrectionSlides.html)  
+    + [Batch correction](scRNAseq/Markdowns/batchCorrection.html)     
+    + [Data set integration](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1.html)     
+    + [Extended Materials](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1_Extended.html)     
 - **12:30 - 13:30 LUNCH**
-- 13:30 - 14:30 Clustering <!-- []() --> <!-- Stephane -->
-- 14:30 - 15:25 Cluster marker genes <!-- []() --> <!-- Zeynep -->
+- 13:30 - 14:30 Clustering - Stephane Ballereau
+
+- 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
+    + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
+    + [Practical](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
+
 - 15:25 - 15:35 **10 min break**
 - 15:35 - 16:30 Differential expression and abundance between conditions <!-- []() --> <!-- Stephane -->
 - 16:30 - 17:30 Trajectories <!-- []() --> <!-- Zeynep -->
