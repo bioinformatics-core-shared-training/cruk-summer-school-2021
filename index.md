@@ -138,7 +138,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     <!-- + [practical solutions](RNAseq/Markdowns/11_Annotation_and_Visualisation_Solutions.html)   -->
     <!-- + [Abbi's Live Script](RNAseq/live_scripts/liveScript_AandV.R)   -->
 - 11:15 - 12:30 [Gene-set testing](RNAseq/Markdowns/12_Gene_set_testing_introduction.html) - Stephane Ballereau    
-    <!-- + [Practical (html)](RNAseq/Markdowns/12_Gene_set_testing.html) [(rmd)](RNAseq/Markdowns/12_Gene_set_testing.Rmd) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.pdf) -->
+    + [Practical (html)](RNAseq/Markdowns/12_Gene_set_testing.html) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.pdf)
     <!-- + [Practical solutions (html)](12_Gene_set_testing.Solutions.html) [(rmd)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.Rmd) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.pdf) -->
 
 - 12:30 - 13:30; LUNCH
