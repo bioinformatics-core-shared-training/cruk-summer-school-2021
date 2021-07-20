@@ -147,7 +147,8 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 13:30 - 14:15 Introduction <!-- []() --> Katarzyna Kania 
 - 14:15 - 14:30 Preamble: data set and workflow <!-- []() --> Stephane Ballereau
 - 14:30 - 15:55 Library structure, cellranger for alignment and cell calling, preprocessing - Ashley Sawle
-    + [Slides](scRNAseq/Slides/CellRangerSlides.html) [Notes](scRNAseq/Markdowns/cellRanger.html)
+    + [Slides](scRNAseq/Slides/CellRangerSlides.html) 
+    + [Alignment with Cell Ranger](scRNAseq/Markdowns/cellRanger.html)
     + [QC and preprocessing](scRNAseq/Markdowns/preProc.html)     
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/preProc.Exercise.Solution.html) -->
 - 15:55 - 16:05 **10 min break**
