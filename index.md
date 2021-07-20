@@ -209,8 +209,8 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + Practical 1: [Peak calling with MACS2](ChIPSeq/scripts/ChIP_Practical1_peakcall.html)
     + Lecture 3: [Quality control methods for ChIP-seq](ChIPSeq/slides/EvaluatingChIPseqData.pdf)
     + Practical 2: [QC & Integrative Genome Viewer](ChIPSeq/scripts/ChIP_Practical2_qc.html) 
-    + Practical 3: [Differential binding analysis: Diffbind](ChIPSeq/scripts/ChIP_Practical3_DiffBind.html) 
     + Lecture 4: [Downstream analysis of ChIP-seq](ChIPSeq/slides/DownstreamAnalysis.pdf) 
+    + Practical 3: [Differential binding analysis: Diffbind](ChIPSeq/scripts/ChIP_Practical3_DiffBind.html) 
     + Practical 4: [Downstream analysis of ChIP-seq](ChIPSeq/scripts/ChIP_Practical4_downstream.html) 
  
 - 12:30 - 13:30; LUNCH BREAK
