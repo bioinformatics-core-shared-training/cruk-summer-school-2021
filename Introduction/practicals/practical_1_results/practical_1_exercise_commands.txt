@@ -1,0 +1,30 @@
+Practical 1 exercises:
+
+
+3: Quality check of raw FASTQ files
+-----------------------------------
+
+Exercise 1:
+
+1. cd /home/ubuntu/Course_Materials/Introduction/practicals
+
+2. ls
+
+3. fastqc data/tp53_chipseq_rep1.fastq.gz -o fastqc
+
+
+
+
+4: Trimming and artefact removal
+--------------------------------
+
+Exercise 1:
+
+1. cutadapt -m 10 -q 20,20 -j 4 -o data/tp53_chipseq_rep1_trimmed.fastq.gz data/tp53_chipseq_rep1.fastq.gz
+
+2. fastqc data/tp53_chipseq_rep1_trimmed.fastq.gz -o fastqc/
+
+
+Exercise 2:
+
+1. multiqc -s -o multiqc fastqc
