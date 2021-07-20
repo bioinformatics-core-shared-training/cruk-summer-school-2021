@@ -164,7 +164,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 
 # Weekend - recharge your batteries!
 
-[SOCIAL: Virtual punting tour of Cambridge](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186225-d2281676-i235494912-Cambridge_River_Tour-Cambridge_Cambridgeshire_England.html)
+[SOCIAL: Punting tour of Cambridge](https://www.youtube.com/watch?v=78LWxvCA-fM)
 
 [SOCIAL: Virtual tour of Cambridge University Botanical Gardens](https://youtu.be/MyCGUi0WKN4)
 
