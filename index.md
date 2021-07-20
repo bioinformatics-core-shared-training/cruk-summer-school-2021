@@ -92,9 +92,9 @@ __Zoom Virtual Training room__.
 - 09:40 - 12:30; Data Processing for Next Generation Sequencing (Shamith, Izzy & Junfan)
   + Lecture 1: [Introduction to next generation sequencing](Introduction/Preprocessing/slides/L1-summerSchool.pdf) 
   + Lecture 2: [Quality control and trimming](Introduction/Preprocessing/slides/L2-summerSchool.pdf) 
-  + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/Preprocessing/practicals/P1_Preprocessing.html) 
+  + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/practicals/P1_Preprocessing.html) 
   + Lecture 3: [Short read alignment and Quality Control](Introduction/Preprocessing/slides/L3-summerSchool.pdf) 
-  + Practical 2: [Short read alignment with STAR](Introduction/Preprocessing/practicals/P2_Alignment.html)   
+  + Practical 2: [Short read alignment with STAR](Introduction/practicals/P2_Alignment.html)   
 
 - 12:30 - 13:30; LUNCH BREAK
 
