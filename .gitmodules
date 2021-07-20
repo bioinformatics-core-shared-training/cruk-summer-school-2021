@@ -1,3 +1,6 @@
 [submodule "RNAseq"]
 	path = RNAseq
 	url = https://github.com/bioinformatics-core-shared-training/RNAseq_Summer_School_2021
+[submodule "scRNAseq"]
+	path = scRNAseq
+	url = https://github.com/bioinformatics-core-shared-training/CRUK_CI_Summer_School_ScRnaSeq_2021
