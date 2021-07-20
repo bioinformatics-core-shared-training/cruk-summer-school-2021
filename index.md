@@ -158,7 +158,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
     
     
-**6pm SOCIAL: Zoom Talk: “{Collaborating with your local Bioinformatician} by Rory Stark”. **
+**6pm SOCIAL: Zoom Talk: “Perspectives on AI by Rory Stark”. **
  
 <hr>
 
