@@ -118,7 +118,7 @@ Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markd
 - 09:30 - 13:00 Statistical Analysis of Bulk RNAseq Data
     + Part I: [Statistics of RNA-seq analysis](RNAseq/Markdowns/08_Stats.pdf) - Zeynep Kalender Atak  
     + Part II: [Linear Models in R and DESeq2](RNAseq/Markdowns/09_Linear_Models.html) ([pdf](RNAseq/Markdowns/09_Linear_Models.pdf)) - Hugo Tavares  
-        + [Slides](https://docs.google.com/presentation/d/1FTP_gdOQ7sBQWZqTbkB97uUzZ57O9FTyVTgfQrqHPeg/edit?usp=sharing) ([live blackboard used during lecture](https://jamboard.google.com/d/1g2M7x_y91n9C35I3DzEPucX3nJexmqXPz8ail3cjLSs/edit?usp=sharing))
+        + [Slides](https://docs.google.com/presentation/d/1FTP_gdOQ7sBQWZqTbkB97uUzZ57O9FTyVTgfQrqHPeg/edit?usp=sharing) 
         + Find the worksheet in 
           `Course_Materials/RNAseq/stats/models_in_r_worksheet.R`
 
