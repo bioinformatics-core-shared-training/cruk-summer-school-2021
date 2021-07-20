@@ -33,7 +33,7 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 ### Instructors & helpers
 
 - [Rory Stark (CRUK CI)](https://www.cruk.cam.ac.uk/author/rory-stark).  
-- [Shamith Samarajiwa (MRC CU](https://www.samarajiwa-lab.org/shamithsamarajiwa)
+- [Shamith Samarajiwa (MRC CU)](https://www.samarajiwa-lab.org/shamithsamarajiwa)
 - [Izzy Newsham (MRC CU)](https://www.samarajiwa-lab.org/izzynewsham). 
 - [Junfan Huang (MRC CU)](https://www.samarajiwa-lab.org/junfanhuang).  
 - [Ashley Sawle (CRUK CI)](https://www.cruk.cam.ac.uk/author/ashley-sawle).  
@@ -89,7 +89,7 @@ School Shared document is [here](https://docs.google.com/document/d/10WM0ZPMbgnT
 __Zoom Virtual Training room__.  
  **July 22nd - 28th 2020**
 - 09:00 - 09:40; Welcome (Paul & Mark)  &  [What is Functional Genomics?](Introduction/What%20is%20Functional%20Genomics.pdf) (Rory)
-- 09:40 - 12:30; Data Processing for Next Generation Sequencing (Joanna & Shoko)
+- 09:40 - 12:30; Data Processing for Next Generation Sequencing (Shamith, Izzy & Junfan)
   + Lecture 1: [Introduction to next generation sequencing](Introduction/Preprocessing/slides/L1-summerSchool.pdf) 
   + Lecture 2: [Quality control and trimming](Introduction/Preprocessing/slides/L2-summerSchool.pdf) 
   + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/Preprocessing/practicals/P1_Preprocessing.html) 
@@ -203,7 +203,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 # Day 5 (July 27th)
 
 - 09:30 - 17:00; 
-- ChIP-seq data analysis
+- ChIP-seq data analysis (Shamith, Izzy & Junfan)
     + Lecture 1: [Introduction to ChIP-seq](ChIPSeq/slides/Introduction.pdf) 
     + Lecture 2: [Introduction to Peak Calling](ChIPSeq/slides/PeakCalling.pdf) 
     + Practical 1: [Peak calling with MACS2](ChIPSeq/scripts/ChIP_Practical1_peakcall.html)
