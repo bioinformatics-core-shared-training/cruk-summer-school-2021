@@ -33,7 +33,7 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 ### Instructors & helpers
 
 - [Rory Stark (CRUK CI)](https://www.cruk.cam.ac.uk/author/rory-stark).  
-- [Shamith Samarajiwa (MRC CU](https://www.samarajiwa-lab.org/shamithsamarajiwa)
+- [Shamith Samarajiwa (MRC CU)](https://www.samarajiwa-lab.org/shamithsamarajiwa)
 - [Izzy Newsham (MRC CU)](https://www.samarajiwa-lab.org/izzynewsham). 
 - [Junfan Huang (MRC CU)](https://www.samarajiwa-lab.org/junfanhuang).  
 - [Ashley Sawle (CRUK CI)](https://www.cruk.cam.ac.uk/author/ashley-sawle).  
@@ -89,7 +89,7 @@ School Shared document is [here](https://docs.google.com/document/d/10WM0ZPMbgnT
 __Zoom Virtual Training room__.  
  **July 22nd - 28th 2020**
 - 09:00 - 09:40; Welcome (Paul & Mark)  &  [What is Functional Genomics?](Introduction/What%20is%20Functional%20Genomics.pdf) (Rory)
-- 09:40 - 12:30; Data Processing for Next Generation Sequencing (Joanna & Shoko)
+- 09:40 - 12:30; Data Processing for Next Generation Sequencing (Shamith, Izzy & Junfan)
   + Lecture 1: [Introduction to next generation sequencing](Introduction/Preprocessing/slides/L1-summerSchool.pdf) 
   + Lecture 2: [Quality control and trimming](Introduction/Preprocessing/slides/L2-summerSchool.pdf) 
   + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/Preprocessing/practicals/P1_Preprocessing.html) 
@@ -100,7 +100,7 @@ __Zoom Virtual Training room__.
 
 - 13:30 - 17:00; Bulk RNAseq  
 
-- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/01_Introduction_to_RNAseq_Methods.html) - Ashley Sawle  
+- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.html) - Ashley Sawle  
 - 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) - Ashley Sawle  
     + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))  
     <!-- + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf)) -->
@@ -118,7 +118,7 @@ Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markd
 - 09:30 - 13:00 Statistical Analysis of Bulk RNAseq Data
     + Part I: [Statistics of RNA-seq analysis](RNAseq/Markdowns/08_Stats.pdf) - Zeynep Kalender Atak  
     + Part II: [Linear Models in R and DESeq2](RNAseq/Markdowns/09_Linear_Models.html) ([pdf](RNAseq/Markdowns/09_Linear_Models.pdf)) - Hugo Tavares  
-        + [Slides](https://docs.google.com/presentation/d/1FTP_gdOQ7sBQWZqTbkB97uUzZ57O9FTyVTgfQrqHPeg/edit?usp=sharing) ([live blackboard used during lecture](https://jamboard.google.com/d/1g2M7x_y91n9C35I3DzEPucX3nJexmqXPz8ail3cjLSs/edit?usp=sharing))
+        + [Slides](https://docs.google.com/presentation/d/1FTP_gdOQ7sBQWZqTbkB97uUzZ57O9FTyVTgfQrqHPeg/edit?usp=sharing) 
         + Find the worksheet in 
           `Course_Materials/RNAseq/stats/models_in_r_worksheet.R`
 
@@ -203,14 +203,14 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 # Day 5 (July 27th)
 
 - 09:30 - 17:00; 
-- ChIP-seq data analysis
+- ChIP-seq data analysis (Shamith, Izzy & Junfan)
     + Lecture 1: [Introduction to ChIP-seq](ChIPSeq/slides/Introduction.pdf) 
     + Lecture 2: [Introduction to Peak Calling](ChIPSeq/slides/PeakCalling.pdf) 
     + Practical 1: [Peak calling with MACS2](ChIPSeq/scripts/ChIP_Practical1_peakcall.html)
     + Lecture 3: [Quality control methods for ChIP-seq](ChIPSeq/slides/EvaluatingChIPseqData.pdf)
     + Practical 2: [QC & Integrative Genome Viewer](ChIPSeq/scripts/ChIP_Practical2_qc.html) 
-    + Practical 3: [Differential binding analysis: Diffbind](ChIPSeq/scripts/ChIP_Practical3_DiffBind.html) 
     + Lecture 4: [Downstream analysis of ChIP-seq](ChIPSeq/slides/DownstreamAnalysis.pdf) 
+    + Practical 3: [Differential binding analysis: Diffbind](ChIPSeq/scripts/ChIP_Practical3_DiffBind.html) 
     + Practical 4: [Downstream analysis of ChIP-seq](ChIPSeq/scripts/ChIP_Practical4_downstream.html) 
  
 - 12:30 - 13:30; LUNCH BREAK
