@@ -87,7 +87,7 @@ School Shared document is [here](https://docs.google.com/document/d/10WM0ZPMbgnT
 # Day 1 (July 21st)
 
 __Zoom Virtual Training room__.  
- **July 22nd - 28th 2020**
+ **July 221st - 27th 2021**
 - 09:00 - 09:40; Welcome (Paul & Mark)  &  [What is Functional Genomics?](Introduction/What%20is%20Functional%20Genomics.pdf) (Rory)
 - 09:40 - 12:30; Data Processing for Next Generation Sequencing (Shamith, Izzy & Junfan)
   + Lecture 1: [Introduction to next generation sequencing](Introduction/slides/L1-summerSchool.pdf) 
@@ -179,7 +179,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 
 # Day 4 (July 26th) Single Cell RNAseq continued   
 
-- 09:30 - 10:55 (Dimensionality reduction, identification of confounding factors, feature selection)[scRNAseq/Markdowns/dimRedFeatSel_2021.html] - Zeynep Kalender Atak  
+- 09:30 - 10:55 [Dimensionality reduction, identification of confounding factors, feature selection](scRNAseq/Markdowns/dimRedFeatSel_2021.html) - Zeynep Kalender Atak  
 - 10:55 - 11:05 **10 min break**
 - 11:05 - 12:30 Batch correction and data set integration - Abigail Edwards
     + [Slides](scRNAseq/Slides/DataIntergrationAndBatchCorrectionSlides.html)  
