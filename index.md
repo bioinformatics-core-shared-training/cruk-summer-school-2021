@@ -95,7 +95,7 @@ __Zoom Virtual Training room__.
   + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/practicals/P1_Preprocessing.html) 
   + Lecture 3: [Short read alignment and Quality Control](Introduction/slides/L3-summerSchool.pdf) 
   + Practical 2: [Short read alignment with STAR](Introduction/practicals/P2_Alignment.html)   
-
+  + Practical 2 Answers: [Short read alignment with STAR](Introduction/practicals/P2_Alignment_answers.html) 
 - 12:30 - 13:30; LUNCH BREAK
 
 - 13:30 - 17:00; Bulk RNAseq  
