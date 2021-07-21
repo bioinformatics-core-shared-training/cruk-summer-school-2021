@@ -95,19 +95,19 @@ __Zoom Virtual Training room__.
   + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/practicals/P1_Preprocessing.html) 
   + Lecture 3: [Short read alignment and Quality Control](Introduction/slides/L3-summerSchool.pdf) 
   + Practical 2: [Short read alignment with STAR](Introduction/practicals/P2_Alignment.html)   
-
+  + [Practical 2 Solutions](Introduction/practicals/P2_Alignment_answers.html) 
 - 12:30 - 13:30; LUNCH BREAK
 
 - 13:30 - 17:00; Bulk RNAseq  
 
-- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.html) - Ashley Sawle  
-- 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) - Ashley Sawle  
+- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.html) \([pdf](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.pdf)\) - Ashley Sawle  
+- 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) \([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.pdf)\) - Ashley Sawle  
     + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))  
-    <!-- + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf)) -->
+    + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf))
  - 15:00 - 17:00 - [RNA-seq 
 Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.pdf)) - Ashley Sawle   
-   <!-- + [Practical solutions](RNAseq/Markdowns/07_Data_Exploration.Solutions.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.Solutions.pdf))  -->
-   <!-- + [Ashley's Live Script](RNAseq/live_scripts/Data_Exploration.R)  -->
+   + [Practical solutions](RNAseq/Markdowns/07_Data_Exploration.Solutions.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.Solutions.pdf))
+   + [Ashley's Live Script](RNAseq/live_scripts/Data_Exploration.R)
 
   + [Extended Material](RNAseq/Extended_index.md)
 
