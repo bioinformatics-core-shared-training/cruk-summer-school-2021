@@ -189,6 +189,9 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Extended Data Integration Workflow](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1_Extended.html)     
 - **12:30 - 13:30 LUNCH**
 - 13:30 - 14:30 Clustering - Stephane Ballereau
+    <!-- + [Slides](scRNAseq/Slides/clusteringSlides.html)  -->
+    + [Practical](scRNAseq/Markdowns/clusteringPostDsi.html)     
+    <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
 
 - 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
@@ -196,9 +199,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 15:25 - 15:35 **10 min break**
 - 15:35 - 16:30 Differential expression and abundance between conditions Stephane Ballereau
 
-- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep
-
-- 12:30 - 13:30; LUNCH BREAK
+- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep Kalender Atak
 
 <hr>
 # Day 5 (July 27th)
