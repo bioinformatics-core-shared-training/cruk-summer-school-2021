@@ -100,8 +100,8 @@ __Zoom Virtual Training room__.
 
 - 13:30 - 17:00; Bulk RNAseq  
 
-- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.html) [pdf](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.pdf) - Ashley Sawle  
-- 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) [pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.pdf) - Ashley Sawle  
+- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.html) \([pdf](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.pdf)\) - Ashley Sawle  
+- 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) \([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.pdf)\) - Ashley Sawle  
     + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))  
     + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf))
  - 15:00 - 17:00 - [RNA-seq 
