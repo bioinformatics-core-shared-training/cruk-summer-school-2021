@@ -87,14 +87,14 @@ School Shared document is [here](https://docs.google.com/document/d/10WM0ZPMbgnT
 # Day 1 (July 21st)
 
 __Zoom Virtual Training room__.  
- **July 22nd - 28th 2020**
+ **July 221st - 27th 2021**
 - 09:00 - 09:40; Welcome (Paul & Mark)  &  [What is Functional Genomics?](Introduction/What%20is%20Functional%20Genomics.pdf) (Rory)
 - 09:40 - 12:30; Data Processing for Next Generation Sequencing (Shamith, Izzy & Junfan)
-  + Lecture 1: [Introduction to next generation sequencing](Introduction/Preprocessing/slides/L1-summerSchool.pdf) 
-  + Lecture 2: [Quality control and trimming](Introduction/Preprocessing/slides/L2-summerSchool.pdf) 
-  + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/Preprocessing/practicals/P1_Preprocessing.html) 
-  + Lecture 3: [Short read alignment and Quality Control](Introduction/Preprocessing/slides/L3-summerSchool.pdf) 
-  + Practical 2: [Short read alignment with STAR](Introduction/Preprocessing/practicals/P2_Alignment.html)   
+  + Lecture 1: [Introduction to next generation sequencing](Introduction/slides/L1-summerSchool.pdf) 
+  + Lecture 2: [Quality control and trimming](Introduction/slides/L2-summerSchool.pdf) 
+  + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/practicals/P1_Preprocessing.html) 
+  + Lecture 3: [Short read alignment and Quality Control](Introduction/slides/L3-summerSchool.pdf) 
+  + Practical 2: [Short read alignment with STAR](Introduction/practicals/P2_Alignment.html)   
 
 - 12:30 - 13:30; LUNCH BREAK
 
@@ -158,13 +158,13 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
     
     
-**6pm SOCIAL: Zoom Talk: “{Collaborating with your local Bioinformatician} by Rory Stark”. **
+**6pm SOCIAL: Zoom Talk: “Perspectives on AI by Rory Stark”. **
  
 <hr>
 
 # Weekend - recharge your batteries!
 
-[SOCIAL: Virtual punting tour of Cambridge](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186225-d2281676-i235494912-Cambridge_River_Tour-Cambridge_Cambridgeshire_England.html)
+[SOCIAL: Punting tour of Cambridge](https://www.youtube.com/watch?v=78LWxvCA-fM)
 
 [SOCIAL: Virtual tour of Cambridge University Botanical Gardens](https://youtu.be/MyCGUi0WKN4)
 
@@ -179,25 +179,30 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 
 # Day 4 (July 26th) Single Cell RNAseq continued   
 
-- 09:30 - 10:55 (Dimensionality reduction, identification of confounding factors, feature selection)[scRNAseq/Markdowns/dimRedFeatSel_2021.html] - Zeynep Kalender Atak  
+- 09:30 - 10:55 [Dimensionality reduction, identification of confounding factors, feature selection](scRNAseq/Markdowns/dimRedFeatSel_2021.html) - Zeynep Kalender Atak  
 - 10:55 - 11:05 **10 min break**
 - 11:05 - 12:30 Batch correction and data set integration - Abigail Edwards
     + [Slides](scRNAseq/Slides/DataIntergrationAndBatchCorrectionSlides.html)  
-    + [Batch correction](scRNAseq/Markdowns/batchCorrection.html)     
     + [Data set integration](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1.html)     
-    + [Extended Materials](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1_Extended.html)     
+  Extended Materials
+    + [Batch correction](scRNAseq/Markdowns/batchCorrection.html)     
+    + [Extended Data Integration Workflow](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1_Extended.html)     
 - **12:30 - 13:30 LUNCH**
 - 13:30 - 14:30 Clustering - Stephane Ballereau
+    <!-- + [Slides](scRNAseq/Slides/clusteringSlides.html)  -->
+    + [Practical](scRNAseq/Markdowns/clusteringPostDsi.html)     
+    <!-- + [Exercise Solutions](scRNAseq/Markdowns/clusteringPostDsi_exercise_solutions.html) -->
 
 - 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
     + [Practical](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
 - 15:25 - 15:35 **10 min break**
 - 15:35 - 16:30 Differential expression and abundance between conditions Stephane Ballereau
+    <!-- + [Slides](scRNAseq/Slides/multiSplCompSlides.html)  -->
+    + [Practical](scRNAseq/Markdowns/multiSplComp.html)     
+    <!-- + [Exercise Solutions](scRNAseq/Markdowns/multiSplComp_exercise_solutions.html) -->
 
-- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep
-
-- 12:30 - 13:30; LUNCH BREAK
+- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep Kalender Atak
 
 <hr>
 # Day 5 (July 27th)
