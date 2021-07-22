@@ -126,7 +126,7 @@ Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markd
 
 - 14:00 - 17:00 [Differential Expression for RNA-seq](RNAseq/Markdowns/10_DE_analysis_with_DESeq2.html) ([pdf](RNAseq/Markdowns/10_DE_analysis_with_DESeq2.pdf)) - Ashley Sawle
     + [practical solutions](RNAseq/Markdowns/10_DE_analysis_with_DESeq2.Solutions.html) ([pdf](RNAseq/Markdowns/10_DE_analysis_with_DESeq2.Solutions.html))  
-    [Ash's Live Script](RNAseq/live_scripts/live_scripts/Differential_Expression_Analysis.R)  
+    [Ash's Live Script](RNAseq/live_scripts/Differential_Expression_Analysis.R)  
  
 <hr>
 
