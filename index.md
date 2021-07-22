@@ -87,7 +87,7 @@ School Shared document is [here](https://docs.google.com/document/d/10WM0ZPMbgnT
 # Day 1 (July 21st)
 
 __Zoom Virtual Training room__.  
- **July 22nd - 28th 2020**
+ **July 221st - 27th 2021**
 - 09:00 - 09:40; Welcome (Paul & Mark)  &  [What is Functional Genomics?](Introduction/What%20is%20Functional%20Genomics.pdf) (Rory)
 - 09:40 - 12:30; Data Processing for Next Generation Sequencing (Shamith, Izzy & Junfan)
   + Lecture 1: [Introduction to next generation sequencing](Introduction/slides/L1-summerSchool.pdf) 
@@ -95,19 +95,19 @@ __Zoom Virtual Training room__.
   + Practical 1: [QC and quality trimming of raw sequencing reads](Introduction/practicals/P1_Preprocessing.html) 
   + Lecture 3: [Short read alignment and Quality Control](Introduction/slides/L3-summerSchool.pdf) 
   + Practical 2: [Short read alignment with STAR](Introduction/practicals/P2_Alignment.html)   
-
+  + [Practical 2 Solutions](Introduction/practicals/P2_Alignment_answers.html) 
 - 12:30 - 13:30; LUNCH BREAK
 
 - 13:30 - 17:00; Bulk RNAseq  
 
-- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.html) - Ashley Sawle  
-- 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) - Ashley Sawle  
+- 13:30 - 14:00  [Introduction to RNAseq Methods](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.html) \([pdf](RNAseq/Markdowns/A_Introduction_to_RNAseq_Methods_SummerSchool.pdf)\) - Ashley Sawle  
+- 14:00 - 15:00 [Quantification of Gene Expression with Salmon](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.html) \([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_introduction.pdf)\) - Ashley Sawle  
     + [Practical](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.html)  ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.pdf))  
-    <!-- + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf)) -->
+    + [Practical solutions](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.html) ([pdf](RNAseq/Markdowns/05_Quantification_with_Salmon_practical.Solutions.pdf))
  - 15:00 - 17:00 - [RNA-seq 
 Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.pdf)) - Ashley Sawle   
-   <!-- + [Practical solutions](RNAseq/Markdowns/07_Data_Exploration.Solutions.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.Solutions.pdf))  -->
-   <!-- + [Ashley's Live Script](RNAseq/live_scripts/Data_Exploration.R)  -->
+   + [Practical solutions](RNAseq/Markdowns/07_Data_Exploration.Solutions.html) ([pdf](RNAseq/Markdowns/07_Data_Exploration.Solutions.pdf))
+   + [Ashley's Live Script](RNAseq/live_scripts/Data_Exploration.R)
 
   + [Extended Material](RNAseq/Extended_index.md)
 
@@ -179,7 +179,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 
 # Day 4 (July 26th) Single Cell RNAseq continued   
 
-- 09:30 - 10:55 (Dimensionality reduction, identification of confounding factors, feature selection)[scRNAseq/Markdowns/dimRedFeatSel_2021.html] - Zeynep Kalender Atak  
+- 09:30 - 10:55 [Dimensionality reduction, identification of confounding factors, feature selection](scRNAseq/Markdowns/dimRedFeatSel_2021.html) - Zeynep Kalender Atak  
 - 10:55 - 11:05 **10 min break**
 - 11:05 - 12:30 Batch correction and data set integration - Abigail Edwards
     + [Slides](scRNAseq/Slides/DataIntergrationAndBatchCorrectionSlides.html)  
@@ -189,16 +189,20 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Extended Data Integration Workflow](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1_Extended.html)     
 - **12:30 - 13:30 LUNCH**
 - 13:30 - 14:30 Clustering - Stephane Ballereau
+    <!-- + [Slides](scRNAseq/Slides/clusteringSlides.html)  -->
+    + [Practical](scRNAseq/Markdowns/clusteringPostDsi.html)     
+    <!-- + [Exercise Solutions](scRNAseq/Markdowns/clusteringPostDsi_exercise_solutions.html) -->
 
 - 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
     + [Practical](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
 - 15:25 - 15:35 **10 min break**
 - 15:35 - 16:30 Differential expression and abundance between conditions Stephane Ballereau
+    <!-- + [Slides](scRNAseq/Slides/multiSplCompSlides.html)  -->
+    + [Practical](scRNAseq/Markdowns/multiSplComp.html)     
+    <!-- + [Exercise Solutions](scRNAseq/Markdowns/multiSplComp_exercise_solutions.html) -->
 
-- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep
-
-- 12:30 - 13:30; LUNCH BREAK
+- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep Kalender Atak
 
 <hr>
 # Day 5 (July 27th)
