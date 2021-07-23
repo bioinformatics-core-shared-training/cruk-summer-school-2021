@@ -134,8 +134,8 @@ Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markd
 - 09:30 - 12:30;  Bulk RNAseq
 - 09:30 - 11:15 [Annotation and Visualisation of RNA-seq
 results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Markdowns/11_Annotation_and_Visualisation.pdf)) - Abbi Edwards    
-    <!-- + [practical solutions](RNAseq/Markdowns/11_Annotation_and_Visualisation_Solutions.html)   -->
-    <!-- + [Abbi's Live Script](RNAseq/live_scripts/liveScript_AandV.R)   -->
+    + [practical solutions](RNAseq/Markdowns/11_Annotation_and_Visualisation_Solutions.html)   
+    + [Abbi's Live Script](RNAseq/live_scripts/AandV_liveScript.R)   
 - 11:15 - 12:30 [Gene-set testing](RNAseq/Markdowns/12_Gene_set_testing_introduction.html) - Stephane Ballereau    
     + [Practical (html)](RNAseq/Markdowns/12_Gene_set_testing.html) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.pdf)
     <!-- + [Practical solutions (html)](12_Gene_set_testing.Solutions.html) [(rmd)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.Rmd) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.pdf) -->
