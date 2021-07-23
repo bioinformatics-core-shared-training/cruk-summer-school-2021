@@ -150,7 +150,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Slides](scRNAseq/Slides/CellRangerSlides.html) 
     + [Alignment with Cell Ranger](scRNAseq/Markdowns/cellRanger.html)
     + [QC and preprocessing](scRNAseq/Markdowns/preProc.html)     
-    <!-- + [Exercise Solutions](scRNAseq/Markdowns/preProc.Exercise.Solution.html) -->
+    + [Exercise Solutions](scRNAseq/Markdowns/preProc.Exercise.Solution.html)
 - 15:55 - 16:05 **10 min break**
 - 16:05 - 17:30 Normalisation - Stephane Ballereau
     + [Slides](scRNAseq/Slides/normalisation_lec.html)  
