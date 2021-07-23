@@ -155,7 +155,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 16:05 - 17:30 Normalisation - Stephane Ballereau
     + [Slides](scRNAseq/Slides/normalisationSlides.html) \([pdf](scRNAseq/Slides/normalisationSlides.pdf)\)  
     + [Practical](scRNAseq/Markdowns/normalisation_5hCellPerSpl_caron.html)     
-    <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
+    + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html)
     
     
 **6pm SOCIAL: Zoom Talk: “Perspectives on AI by Rory Stark”. **
