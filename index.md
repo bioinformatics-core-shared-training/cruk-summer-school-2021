@@ -152,7 +152,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/preProc.Exercise.Solution.html) -->
 - 15:55 - 16:05 **10 min break**
 - 16:05 - 17:30 Normalisation - Stephane Ballereau
-    + [Slides](scRNAseq/Slides/normalisation_lec.html)  
+    + [Slides](scRNAseq/Slides/normalisationSlides.html)  
     + [Practical](scRNAseq/Markdowns/normalisation_5hCellPerSpl_caron.html)     
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
     
