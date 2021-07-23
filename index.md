@@ -11,8 +11,7 @@ particularly in the form of gene expression (transcription) and gene regulation.
 current methods for functional genomics using high-throughput technologies. 
 
 High-throughput technologies such as next generation sequencing (NGS) can routinely produce massive amounts of data. However, such datasets pose new challenges in the way the data have to be analyzed, annotated and interpreted which are not trivial and are daunting to the wet-lab biologist. This course covers state-of-the-art and best-practice tools for bulk RNA-seq and ChIP-seq data analysis, and will also introduce approaches in prognostic gene signatures.
-
-**[Outline timetable here](timetable.md)**.   
+ 
 
 ### Audience
 
@@ -220,7 +219,9 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
  
 - 12:30 - 13:30; LUNCH BREAK
 
-# Please don't forget to fill in the [survey]( https://www.surveymonkey.co.uk/r/XHGS7P6 )  
+# Course Feedback.  
+Please don't forget to fill in the [survey]( https://www.surveymonkey.co.uk/r/XHGS7P6 )  
+
 <hr>
 
 <!--
