@@ -27,7 +27,6 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 
 **More specific requirements and references can be found [here](Pre-requisites.md)**   
 
- # (**Data files for course are [here](https://www.dropbox.com/sh/l1qhs5tqwdxe81w/AAA2KGKXuMAPUwW1a9DGMS5la?dl=0). There is a zip-file for each course and a sizes.txt file with zip sizes **   )
 
 ### Instructors & helpers
 
