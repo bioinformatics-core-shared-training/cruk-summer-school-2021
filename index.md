@@ -179,7 +179,9 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 
 # Day 4 (July 26th) Single Cell RNAseq continued   
 
-- 09:30 - 10:55 [Dimensionality reduction, identification of confounding factors, feature selection](scRNAseq/Markdowns/dimRedFeatSel_2021.html) - Zeynep Kalender Atak  
+- 09:30 - 10:55 Dimensionality reduction, feature selection - Zeynep Kalender Atak  
+    + [Slides](scRNAseq/Slides/FeatureSelectionAndDimensionalityReductionSlides.html)
+    + [Dimensionality reduction, feature selection](scRNAseq/Markdowns/dimRedFeatSel_2021.html)
 - 10:55 - 11:05 **10 min break**
 - 11:05 - 12:30 Batch correction and data set integration - Abigail Edwards
     + [Slides](scRNAseq/Slides/DataIntergrationAndBatchCorrectionSlides.html)  
@@ -195,7 +197,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 
 - 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
-    + [Practical](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
+    + [Cluster marker genes](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
 - 15:25 - 15:35 **10 min break**
 - 15:35 - 16:30 Differential expression and abundance between conditions Stephane Ballereau
     <!-- + [Slides](scRNAseq/Slides/multiSplCompSlides.html)  -->
@@ -203,7 +205,9 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/multiSplComp_exercise_solutions.html) -->
 
 - 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep Kalender Atak
-
+    + [Slides](TrajectoryInferenceSlides.html)
+    + [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html)
+    
 <hr>
 # Day 5 (July 27th)
 
