@@ -145,7 +145,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 13:30 - 14:15 Introduction
     + [Slides](scRNAseq/Slides/Introduction_to_Single_Cell_RNAseq_CRUK_Kania_23rd_July_2021.pdf) - Katarzyna Kania 
 - 14:15 - 14:30 Preamble: data set and workflow - Stephane Ballereau
-    + [Slides](scRNAseq/Slides/dataSetSlides.html) 
+    + [Slides](scRNAseq/Slides/dataSetSlides.html) \([pdf](scRNAseq/Slides/dataSetSlides.pdf)\)  
 - 14:30 - 15:55 Library structure, cellranger for alignment and cell calling, preprocessing - Ashley Sawle
     + [Slides](scRNAseq/Slides/CellRangerSlides.html)  \([pdf](scRNAseq/Slides/CellRangerSlides.pdf)\) 
     + [Alignment with Cell Ranger](scRNAseq/Markdowns/cellRanger.html)
@@ -153,7 +153,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Exercise Solutions](scRNAseq/Markdowns/preProc.Exercise.Solution.html)
 - 15:55 - 16:05 **10 min break**
 - 16:05 - 17:30 Normalisation - Stephane Ballereau
-    + [Slides](scRNAseq/Slides/normalisationSlides.html)  
+    + [Slides](scRNAseq/Slides/normalisationSlides.html) \([pdf](scRNAseq/Slides/normalisationSlides.pdf)\)  
     + [Practical](scRNAseq/Markdowns/normalisation_5hCellPerSpl_caron.html)     
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
     
