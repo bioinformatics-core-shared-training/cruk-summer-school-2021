@@ -11,8 +11,7 @@ particularly in the form of gene expression (transcription) and gene regulation.
 current methods for functional genomics using high-throughput technologies. 
 
 High-throughput technologies such as next generation sequencing (NGS) can routinely produce massive amounts of data. However, such datasets pose new challenges in the way the data have to be analyzed, annotated and interpreted which are not trivial and are daunting to the wet-lab biologist. This course covers state-of-the-art and best-practice tools for bulk RNA-seq and ChIP-seq data analysis, and will also introduce approaches in prognostic gene signatures.
-
-**[Outline timetable here](timetable.md)**.   
+ 
 
 ### Audience
 
@@ -28,7 +27,6 @@ Enthusiastic and motivated wet-lab biologists who want to gain more of an unders
 
 **More specific requirements and references can be found [here](Pre-requisites.md)**   
 
- # (**Data files for course are [here](https://www.dropbox.com/sh/l1qhs5tqwdxe81w/AAA2KGKXuMAPUwW1a9DGMS5la?dl=0). There is a zip-file for each course and a sizes.txt file with zip sizes **   )
 
 ### Instructors & helpers
 
@@ -135,8 +133,8 @@ Data Exploration](RNAseq/Markdowns/07_Data_Exploration.html) ([pdf](RNAseq/Markd
 - 09:30 - 12:30;  Bulk RNAseq
 - 09:30 - 11:15 [Annotation and Visualisation of RNA-seq
 results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Markdowns/11_Annotation_and_Visualisation.pdf)) - Abbi Edwards    
-    <!-- + [practical solutions](RNAseq/Markdowns/11_Annotation_and_Visualisation_Solutions.html)   -->
-    <!-- + [Abbi's Live Script](RNAseq/live_scripts/liveScript_AandV.R)   -->
+    + [practical solutions](RNAseq/Markdowns/11_Annotation_and_Visualisation_Solutions.html)   
+    + [Abbi's Live Script](RNAseq/live_scripts/AandV_liveScript.R)   
 - 11:15 - 12:30 [Gene-set testing](RNAseq/Markdowns/12_Gene_set_testing_introduction.html) - Stephane Ballereau    
     + [Practical (html)](RNAseq/Markdowns/12_Gene_set_testing.html) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.pdf)
     <!-- + [Practical solutions (html)](12_Gene_set_testing.Solutions.html) [(rmd)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.Rmd) [(pdf)](RNAseq/Markdowns/12_Gene_set_testing.Solutions.pdf) -->
@@ -144,8 +142,10 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 12:30 - 13:30; LUNCH
 
 - 13:30 - 17:00; Single Cell RNAseq  
-- 13:30 - 14:15 Introduction <!-- []() --> Katarzyna Kania 
-- 14:15 - 14:30 Preamble: data set and workflow <!-- []() --> Stephane Ballereau
+- 13:30 - 14:15 Introduction
+    + [Slides](scRNAseq/Slides/Introduction_to_Single_Cell_RNAseq_CRUK_Kania_23rd_July_2021.pdf) - Katarzyna Kania 
+- 14:15 - 14:30 Preamble: data set and workflow - Stephane Ballereau
+    + [Slides](scRNAseq/Slides/dataSetSlides.html) 
 - 14:30 - 15:55 Library structure, cellranger for alignment and cell calling, preprocessing - Ashley Sawle
     + [Slides](scRNAseq/Slides/CellRangerSlides.html)  \([pdf](scRNAseq/Slides/CellRangerSlides.pdf)\) 
     + [Alignment with Cell Ranger](scRNAseq/Markdowns/cellRanger.html)
@@ -153,7 +153,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Exercise Solutions](scRNAseq/Markdowns/preProc.Exercise.Solution.html)
 - 15:55 - 16:05 **10 min break**
 - 16:05 - 17:30 Normalisation - Stephane Ballereau
-    + [Slides](scRNAseq/Slides/normalisation_lec.html)  
+    + [Slides](scRNAseq/Slides/normalisationSlides.html)  
     + [Practical](scRNAseq/Markdowns/normalisation_5hCellPerSpl_caron.html)     
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/normalisation_exercise_solutions.html) -->
     
@@ -220,7 +220,9 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
  
 - 12:30 - 13:30; LUNCH BREAK
 
-## Please don't forget to fill in the [survey](  )   Link will appear here towards end of Summer School
+# Course Feedback.  
+Please don't forget to fill in the [survey]( https://www.surveymonkey.co.uk/r/XHGS7P6 )  
+
 <hr>
 
 <!--
