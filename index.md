@@ -199,7 +199,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
     + [Cluster marker genes](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
 - 15:25 - 15:35 **10 min break**
-- 15:35 - 16:30 Differential expression and abundance between conditions Stephane Ballereau
+- 15:35 - 16:30 Differential expression and abundance between conditions - Stephane Ballereau
     <!-- + [Slides](scRNAseq/Slides/multiSplCompSlides.html)  -->
     + [Practical](scRNAseq/Markdowns/multiSplComp.html)     
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/multiSplComp_exercise_solutions.html) -->
