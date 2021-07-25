@@ -1,0 +1,297 @@
+---
+title: "ChIPseq Practical 1: Peak Calling"
+author: "Izzy Newsham, Junfan Huang, Shamith Samarajiiwa"
+date: "27 July 2021"
+output: 
+  BiocStyle::html_document
+  #BiocStyle::pdf_document
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEncoding{UTF-8} 
+  %\VignetteEngine{knitr::rmarkdown}
+---
+# Before we start
+
+All the data, including output of some of the commands run in this and following practical is stored in /home/ubuntu/Course_Materials/ChIPSeq/practicals/data. This is so that even if you did not complete the exercises, you have input files for the following practical sessions. The output files of the practicals will be in /home/ubuntu/Course_Materials/ChIPSeq/practicals/output.
+
+
+**Docker**
+<!-- TODO: Insert bit about we are using docker containers and how to activate them  -->
+```{bash, eval=FALSE}
+
+docker exec -ti -u 0 docker /bin/bash 
+
+```
+
+# Introduction
+
+In this practical, we will learn how to call peaks from BAM files. We have already aligned the FASTQ files to BAM files (we used the BWA aligner). When aligning, we used a sponge database (which removes artefacts and non-chromosomal sequences) and after alignment we removed blacklisted regions (which removes multi-mapping reads and regions with abnormally high signal). When you do analyses on your own data, these are important steps that can't be missed out!
+
+## Learning objectives
+
+During this tutorial you will learn how to:  
+
+* Filter duplicates using `MACS2 filterdup`  
+* Estimate fragment lengths using `MACS2 predictd`
+* perform peak calling using `MACS2 callpeak` 
+
+N.B. We are using the terminal for this session, so all the following code snippets are terminal commands.
+
+
+## Check the input data
+At the end of the data processing, we get BAM files as a result of short reads alignment to the reference genome. The upstream data processing was covered in the day 1 lectures.
+
+First, let's have a look at these BAM files.
+
+We use a bash command `cd` to go into the directory in which our input data is stored, and `ls` to list all the BAM files in the directory.
+
+```{bash, eval=FALSE}
+
+cd "/home/ubuntu/Course_Materials/ChIPSeq/practicals/data"
+
+ls *.bam
+```
+
+As you can see, there are ChIP-seq data (
+tp53_r1.fastq_trimmed.fastq_sorted.bam, 
+tp53_r2.fastq_trimmed.fastq_sorted.bam) and the input data (input.fastq_trimmed.fastq_sorted.bam) in the data directory. 
+
+This is transcription factor binding data (detected by ChIP-seq) of TP53 on a human cell line, and there are two replicates (r1 and r2). Each BAM file contains only the reads aligned to chromosome 3 to reduce its size. During this peak calling practical, we will focus on the replicate 2 of TP53 experiment. (tp53_r2.fastq_trimmed.fastq_sorted.bam).
+
+
+Now, let's have a look at the contents of the BAM file. 
+As you discovered in day 1, BAM files are binary, and we need a tool called [samtools](http://www.htslib.org/) to read them. The [command](http://www.htslib.org/doc/samtools-view.html) is `samtools view [filename]`. (If you remember from day 1!).
+
+`head [-n lines]` is a bash command to check first -n lines of the file in the terminal.
+
+```{bash, eval=FALSE}
+
+samtools view "/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/tp53_r2.fastq_trimmed.fastq_sorted.bam" | head -n 10
+
+```
+
+
+# Peak calling (Reads to peaks) using MACS2
+
+## When To Filter Duplicates
+
+Duplicates are reads or pairs of reads having identical or near-identical (due to sequencing errors) sequences and map to the same genomic position and strand. During library preparation, immuno-precipitated DNA undergoes PCR amplification, and some of the templates are amplified more efficiently than the others, leading to the sequencing of identical copies from the same DNA fragment. Deeper sequencing, low immuno-precipitation efficiency or insufficient amounts of starting material, all of which contribute to PCR duplicate formation. These types of duplicates need to be filtered out. Examination of read alignment (BAM files) in a genome browser can help identify PCR duplicates.
+
+Routine duplicate removal without any exploration of read mapping is **not recommended** for ChIP-seq data. PCR free ChIP-seq experiments suggest that most duplicates seen in both TF and histone mark ChIP-seq data were enriched in peaks and were natural duplicates (Tian et al., 2019).
+
+Computationally, duplicates are identified from coordinate-sorted alignments, using tools such as SAMtools markdup and Picard MarkDuplicates. 
+
+The `MACS2 filterdup` allows to take BAM files, modify the number of duplicated reads and output regions in bed file format.
+
+However natural duplicates arise from sequencing of independent DNA fragments derived from the same genomic locations. These should not be removed as they are part of the true signal. Unique molecular identifiers (UMI) can be used to distinguish natural and PCR duplicates. 
+
+
+
+
+Let's have a look at the arguments.
+
+```{bash eval=FALSE}
+
+macs2 filterdup -h
+
+```
+
+The key argument here is `--keep-dup`. It controls the `macs2 filterdup` behaviour towards duplicate tags/pairs at the exact same location. Let's try and filter so that it will allow only 1 read at the same location.
+
+```{bash eval=FALSE}
+#removes duplicates
+
+macs2 filterdup -i "/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/tp53_r2.fastq_trimmed.fastq_sorted.bam" -f BAM -g hs --keep-dup=1 --verbose=3 -o "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2.fastq_trimmed.fastq_sorted_filterdup.bed"
+
+
+# to keep duplicates 
+
+macs2 filterdup -i "/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/tp53_r2.fastq_trimmed.fastq_sorted.bam" -f BAM -g hs --keep-dup=all --verbose=3 -o "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2.fastq_trimmed.fastq_sorted_filterdup_none.bed"
+```
+
+
+> Exercise 1
+>
+>1. What does each argument in the code above mean? (Hint: `macs2 filterdup -h`)
+>2. How many reads were there before and after filtering?
+>
+
+
+
+Now, let's check the output bed file. We can use `head [-n lines]` command again.
+
+```{bash eval=FALSE}
+
+head -n 10 "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2.fastq_trimmed.fastq_sorted_filterdup.bed"
+
+```
+
+
+> Exercise 2
+>
+>1. We would like to filter the same BAM file ("/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/tp53_r2.fastq_trimmed.fastq_sorted.bam") but this time, allowing 2 reads at the same position. Name the output file  "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2_.fastq_trimmed.fastq_sorted_filterdup2_exercise2.bed".
+>2. Check the first 10 lines of the output bed file using `head -n 10 filename.bed` command. Can you see the difference between this file and the one processed using `--keep-dup=1`?
+
+
+## Predict fragment length
+
+Next we would like to predict fragment length so that we could extend the reads. `macs2 predictd` is used for this.
+
+Let's check the arguments for this command!
+
+```{bash eval=FALSE}
+
+macs2 predictd -h
+
+```
+
+The distance between the modes of the forward and reverse peaks in the alignment is defined as ‘d’, and MACS2 shifts all the reads by d/2 toward the 3’ ends to better locate the precise binding site. To find paired peaks to build the shift model, `macs2 predictd` scans the whole dataset searching for enriched regions within enrichment specified by a high-confidence fold-enrichment interval `--mfold`. For example, `-m 5,20` will use peaks enriched between 5 and 20 fold relative to the background. Let's run a command to predict the fragment length using the previously filtered bed file. This time, we will set fold-enrichment must be lower than 20, and higher than the 5. 
+
+```{bash eval=FALSE}
+
+macs2 predictd -i "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2.fastq_trimmed.fastq_sorted_filterdup.bed" -g hs -m 5 20
+
+macs2 predictd -i "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2.fastq_trimmed.fastq_sorted_filterdup_none.bed" -g hs -m 5 20
+
+```
+
+> Exercise 3
+>
+>1. What does each argument in the code above mean? (Hint: `macs2 predictd -h`)
+>2. What is the predicted fragment length?
+>3. Try different value of mfold and see effect on peak numbers
+>
+
+
+## Peak calling
+So far, we have done the steps of "filtration of duplicates" and "prediction of fragment length" step by step in order to prepare the data for peak calling. In fact, `macs2` has a wrapper function which does these steps for us, and then call peaks. This function is called `macs2 callpeak`.
+
+Let's have a look at the arguments of this function.
+
+```{bash eval=FALSE}
+
+macs2 callpeak -h
+
+```
+
+You may notice that there are arguments we used to filter duplicates and predict fragment length, such as `--keep-dup` and `--mfold`.
+
+The effective genome size '-g' can be 'hs' or the actual value for hg38 (2.91e9).
+
+```{bash eval=FALSE}
+macs2 callpeak -t "/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/tp53_r2.fastq_trimmed.fastq_sorted.bam" -c "/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/input.fastq_trimmed.fastq_sorted.bam" -g hs --keep-dup all -m 5 20 -n tp53_r2.fastq_trimmed.fastq_sorted_standard -f BAM --bdg --outdir "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/macs_output"
+
+```
+> Exercise 4
+>
+>1. What does each argument in the code above mean? (Hint: `macs2 callpeak -h`)
+>2. What is macs2 callpeak using as the value of `--keep-dup` and `--mfold` in the code above? What are the default values?
+>3. What is the q-value cutoff for peak detection?
+
+## Output of MACS
+Let's have a look at the output of `macs2 callpeak`. First, go into the output directory using `cd` command, then list the files created in the directory using `ls` command. 
+
+```{bash eval=FALSE}
+
+cd /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/macs_output
+
+ls
+
+```
+
+
+Now, there should be 6 files output to the results directory:
+
+* _peaks.narrowPeak: BED6+4 format file which contains the peak locations together with peak summit, pvalue and qvalue
+* _peaks.xls: a tabular file which contains information about called peaks. Additional information includes pileup and fold enrichment
+* _summits.bed: peak summits locations for every peak. To find the motifs at the binding sites, this file is recommended
+* _model.r: an R script which you can use to produce a PDF image about the model based on your data and cross-correlation plot
+* _control_lambda.bdg: bedGraph format for input sample
+* _treat_pileup.bdg: bedGraph format for treatment sample
+
+Let's have a look at the .narrowPeak file (make the terminal window as wide as possible).
+
+```{bash eval=FALSE}
+#if you are not in this directory cd into it
+cd /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/macs_output
+head -n 10 tp53_r2.fastq_trimmed.fastq_sorted_standard_peaks.narrowPeak
+
+```
+
+* column 1: chromosome    
+* column 2: start coordinate    
+* column 3: end coordinate    
+* column 4: name    
+* column 5: score   
+* column 6: strand    
+* column 7: signal value - measurement of overall enrichment for the region   
+* column 8: pvalue - statistical significance (-log10)    
+* column 9: qvalue - statistical significance using false discovery rate (-log10)   
+* column 10: peak - point-source called for this peak; 0-based offset from chromStart   
+
+Column 1 to 6 are the same format as bed file and column 7 to 10 are narrowPeak-only columns.
+
+Next, have a look a the summit files. Summits are supposed to be the point of TF binding. There is one summit per each peak.
+
+```{bash eval=FALSE}
+#if you are not in this directory cd into it
+cd /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/macs_output
+head -n 10 tp53_r2.fastq_trimmed.fastq_sorted_standard_summits.bed
+
+```
+
+* column 1: chromosome    
+* column 2: start coordinate    
+* column 3: end coordinate    
+* column 4: name    
+* column 5: qvalue - statistical significance using false discovery rate (-log10)   
+
+Finally, let's have a look at the bedgraph file.
+
+```{bash eval=FALSE}
+#if you are not in this directory cd into it
+cd /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/macs_output
+head -n 10 tp53_r2.fastq_trimmed.fastq_sorted_standard_treat_pileup.bdg
+
+```
+
+bedGraph file is a coverage track which is calculated as the number of reads per bin, where bins are short consecutive counting windows of a defined size. In this case, the bin is 1bp.
+
+Finally, we would like to convert bedGraph file into its binary format (bigwig file). This is going to be used in the practical 2 and 4 where tools would like bigwig files as their input. We use function called `bedGraphToBigWig` from [tools](https://genome.ucsc.edu/goldenPath/help/bigWig.html#Ex3) provided by UCSC.
+
+First, let's check how the function works.
+
+```{bash eval=FALSE}
+
+bedGraphToBigWig 
+
+```
+
+From the description of the function, to make it binary you need the file which contains the chromosome sizes as well as the input bedGraph file. This could be downloaded from [here](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes) (if you do not work on human, you can replace hg38 with your genome build of your interest).
+
+```{bash eval=FALSE}
+
+bedGraphToBigWig /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/macs_output/tp53_r2.fastq_trimmed.fastq_sorted_standard_treat_pileup.bdg /home/ubuntu/Course_Materials/ChIPSeq/practicals/data/hg38_chr3.sizes /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/macs_output/tp53_r2.fastq_trimmed.fastq_sorted_standard_treat_pileup.bw
+
+```
+
+
+> Exercise 5 (only if you have extra time!)	  
+>
+> 1. Find the _model.r output file that was generated by the macs2 callpeak command. Run this file (use R CMD BATCH in terminal) to generate a pdf file containing plots about your peak calling model, and check you understand the plots (hint: use the Rscript command in the terminal).
+> 2. Call peaks from the other BAM file we did not process during this practical (tp53_r1.fastq_trimmed.fastq_sorted.bam)
+
+# References
+* [MACS](https://github.com/macs3-project/MACS)
+* [SAMTOOLS](http://www.htslib.org/)
+* [Introduction to ChIP-Seq using high-performance computing, Meeta Mistry, Radhika Khetani](https://hbctraining.github.io/Intro-to-ChIPseq/lessons/05_peak_calling_macs.html)
+* [UCSC binary tools](https://github.com/ENCODE-DCC/kentUtils)
+* [Tian et al. Identification of factors associated with duplicate rate in ChIP-seq data. PLOS One (2019).](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214723)
+
+Acknowledgements:
+
+Joanna Krupka 
+MRC Cancer Unit, University of Cambridge
+Shoko Hirosue
+MRC Cancer Unit, University of Cambridge
+
