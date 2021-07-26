@@ -194,7 +194,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 13:30 - 14:30 Clustering - Stephane Ballereau
     + [Slides](scRNAseq/Slides/clusteringSlides.html)
     + [Practical](scRNAseq/Markdowns/clusteringPostDsi.html)     
-    + [Exercise Solutions](scRNAseq/Markdowns/clusteringPostDsi_exercise_solution.html)
+    + [Exercise Solutions](scRNAseq/Markdowns/clusteringPostDsi_exercise_solutions.html)
 
 - 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
