@@ -205,7 +205,8 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 15:35 - 16:30 Differential expression and abundance between conditions - Stephane Ballereau
     + [Slides](scRNAseq/Slides/multiSplCompSlides.html)
     + [Practical](scRNAseq/Markdowns/multiSplComp.html)     
-    <!-- + [Exercise Solutions](scRNAseq/Markdowns/multiSplComp_exercise_solutions.html) -->
+    + [Exercise1 Solutions](scRNAseq/Markdowns/multiSplComp_exercise1_solutions.html)
+    + [Exercise2 Solutions](scRNAseq/Markdowns/multiSplComp_exercise2_solutions.html)
 
 - 16:30 - 17:30 Trajectories - Zeynep Kalender Atak
     + [Slides](scRNAseq/Slides/TrajectoryInferenceSlides.html)
