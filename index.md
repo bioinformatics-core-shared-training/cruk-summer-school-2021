@@ -188,7 +188,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Data set integration](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1.html)     
   Extended Materials
     + [Batch correction](scRNAseq/Markdowns/batchCorrection.html)     
-    + [Extended Data Integration Workflow](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1_Extended.html)     
+    <!--  + [Extended Data Integration Workflow](scRNAseq/Markdowns/dataSetIntegration_PBMMC_ETV6-RUNX1_Extended.html)     -->
 - **12:30 - 13:30 LUNCH**
 - 13:30 - 14:30 Clustering - Stephane Ballereau
     <!-- + [Slides](scRNAseq/Slides/clusteringSlides.html)  -->
