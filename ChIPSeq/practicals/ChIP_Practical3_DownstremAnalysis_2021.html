@@ -349,8 +349,10 @@ dotplot(yy)</code></pre>
 <div id="downstream-analysis-part-2" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Downstream Analysis Part 2</h1>
 <p>Let’s switch to terminal.</p>
-<p><strong>bash</strong></p>
-<pre class="bash"><code></code></pre>
+<p><strong>Docker</strong></p>
+<pre class="bash"><code>
+docker exec -ti -u 0 docker /bin/bash 
+</code></pre>
 <div id="normalization-and-visualization-using-deeptools" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Normalization and Visualization using Deeptools</h2>
 <p>In this section, we are going to make a heatmap which shows the distribution of peaks around the regions specified. These regions could be regions of the genome with specific annotation (eg. TSS) or the regions which are called as peaks. One of the popular packages used for this purpose is called <a href="https://deeptools.readthedocs.io/en/develop/index.html">Deeptools</a>. In this practical, we could like to make a heatmap of input and ChIP seq data using peak regions.</p>
@@ -441,7 +443,7 @@ meme-chip -oc /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/meme -db /
 <p>The function above takes a while to run, so let’s have a look at the results first.</p>
 <div id="pscanchip" class="section level3" number="3.3.1">
 <h3><span class="header-section-number">3.3.1</span> PScanChIP</h3>
-<p><a href="%22http://159.149.160.88/pscan_chip_dev/%22">PScanChIP website</a></p>
+<p><a href="http://159.149.160.88/pscan_chip_dev/">PScanChIP website</a></p>
 <ul>
 <li>Upload your centred bed file (Peaks_for_motif_detection.bed)</li>
 </ul>
@@ -452,7 +454,7 @@ meme-chip -oc /home/ubuntu/Course_Materials/ChIPSeq/practicals/output/meme -db /
 <h1><span class="header-section-number">4</span> Network Analysis</h1>
 <div id="string" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> STRING</h2>
-<p><a href="%22https://string-db.org/cgi/network.pl%22">STRING website</a></p>
+<p><a href="https://string-preview.org/">STRING website</a></p>
 <p>A few examples from the vignette.</p>
 <p><strong>R</strong></p>
 <pre class="r"><code>#load package
@@ -503,7 +505,7 @@ string_db$plot_ppi_enrichment(example1_mapped$STRING_id[1:1000], quiet=TRUE ) </
 </div>
 <div id="genemania" class="section level2" number="4.2">
 <h2><span class="header-section-number">4.2</span> GeneMANIA</h2>
-<p><a href="%22http://genemania.org/%22">GeneMANIA website</a></p>
+<p><a href="http://genemania.org/">GeneMANIA website</a></p>
 <p>GeneMANIA (web app and Cytoscape module) finds connectivity between a genelist or other genes that are related to a set of input genes, using a very large set of functional association data. Association data include protein and genetic interactions, pathways, co-expression, co-localization and protein domain similarity. You can use GeneMANIA to find new members of a pathway or complex, find additional genes you may have missed in your screen or find new genes with a specific function, such as protein kinases. Your question is defined by the set of genes you input.</p>
 </div>
 </div>
@@ -514,7 +516,7 @@ string_db$plot_ppi_enrichment(example1_mapped$STRING_id[1:1000], quiet=TRUE ) </
 <p>Genes co-regulated by TFs or associated with certain epigenomic modifications may belong to common functional groups. Gene
 Ontology enrichment analysis, GSEA, pathway and interaction analysis helps identify these enriched biological features
 and their connectivity.</p>
-<p><a href="%22http://great.stanford.edu/public/html/%22">GREAT website</a></p>
+<p><a href="http://great.stanford.edu/public/html/">GREAT website</a></p>
 <p>Ontology enrichment analysis may be performed on the sets of genes with peaks associated to them. ChIPpeakAnno can
 map peaks to genes. In this example we will consider genes with peaks within 5000bp of a gene’s TSS.</p>
 <p>How to associate genomic regions to genes:

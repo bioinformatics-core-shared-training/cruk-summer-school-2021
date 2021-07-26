@@ -238,9 +238,10 @@ dotplot(yy)
 
 Let's switch to terminal.
 
-**bash**
-```{bash eval=FALSE}
+**Docker**
+```{bash, eval=FALSE}
 
+docker exec -ti -u 0 docker /bin/bash 
 
 ```
 
@@ -389,7 +390,7 @@ The function above takes a while to run, so let's have a look at the results fir
 
 ### PScanChIP
 
-[PScanChIP website]("http://159.149.160.88/pscan_chip_dev/")
+[PScanChIP website](http://159.149.160.88/pscan_chip_dev/)
 
 * Upload your centred bed file (Peaks_for_motif_detection.bed)
 
@@ -400,7 +401,7 @@ The function above takes a while to run, so let's have a look at the results fir
 ## STRING
 
 
-[STRING website]("https://string-db.org/cgi/network.pl")
+[STRING website](https://string-preview.org/)
 
 
 A few examples from the vignette.
@@ -462,7 +463,7 @@ string_db$plot_ppi_enrichment(example1_mapped$STRING_id[1:1000], quiet=TRUE )
 
 ## GeneMANIA
 
-[GeneMANIA website]("http://genemania.org/")
+[GeneMANIA website](http://genemania.org/)
 
 GeneMANIA (web app and Cytoscape module) finds connectivity between a genelist or other genes that are related to a set of input genes, using a very large set of functional association data. Association data include protein and genetic interactions, pathways, co-expression, co-localization and protein domain similarity. You can use GeneMANIA to find new members of a pathway or complex, find additional genes you may have missed in your screen or find new genes with a specific function, such as protein kinases. Your question is defined by the set of genes you input.
 
@@ -477,7 +478,7 @@ Ontology enrichment analysis, GSEA, pathway and interaction analysis helps ident
 and their connectivity.
 
 
-[GREAT website]("http://great.stanford.edu/public/html/")
+[GREAT website](http://great.stanford.edu/public/html/)
 
 Ontology enrichment analysis may be performed on the sets of genes with peaks associated to them. ChIPpeakAnno can
 map peaks to genes. In this example we will consider genes with peaks within 5000bp of a gene’s TSS.
