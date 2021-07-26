@@ -224,7 +224,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + Practical 1: [Peak calling with MACS2](ChIPSeq/practicals/ChIP_Practical1_peakcalling_2021.html)
     + Lecture 3: [Quality control methods for ChIP-seq](ChIPSeq/slides/EvaluatingChIPseqData.pdf)
     + Practical 2: [QC & Integrative Genome Viewer](ChIPSeq/practicals/ChIP_Practical2_qc.html) 
-    + Lecture 3: [Downstream analysis of ChIP-seq](ChIPSeq/slides/DownstreamAnalysis.pdf) 
+    + Lecture 4: [Downstream analysis of ChIP-seq](ChIPSeq/slides/DownstreamAnalysis.pdf) 
     + Practical 3: [Downstream analysis of ChIP-seq](ChIPSeq/practicals/ChIP_Practical3_DownstremAnalysis_2021.html) 
  
 - 12:30 - 13:30; LUNCH BREAK
