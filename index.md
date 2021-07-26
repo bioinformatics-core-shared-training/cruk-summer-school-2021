@@ -182,7 +182,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 09:30 - 10:55 Dimensionality reduction, feature selection - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/FeatureSelectionAndDimensionalityReductionSlides.html)
     + [Dimensionality reduction, feature selection](scRNAseq/Markdowns/dimRedFeatSel_2021.html)
-    + [Exercise Solutions](scRNAseq/Markdowns/DimRedChallengeSolutions.html)
+    + [Exercise Solutions](scRNAseq/CourseMaterials/Challenges/DimRedChallengeSolutions.html)
 - 10:55 - 11:05 **10 min break**
 - 11:05 - 12:30 Batch correction and data set integration - Abigail Edwards
     + [Slides](scRNAseq/Slides/DataIntergrationAndBatchCorrectionSlides.html)  
