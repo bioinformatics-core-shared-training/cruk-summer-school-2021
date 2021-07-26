@@ -199,6 +199,8 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - 14:30 - 15:25 Cluster marker genes - Zeynep Kalender Atak  
     + [Slides](scRNAseq/Slides/MarkerIdentificationSlides.html)
     + [Cluster marker genes](scRNAseq/Markdowns/ClusterMarkerGenes2021.html)
+    + [Exercise Solutions](scRNAseq/CourseMaterials/Challenges/ClusterMarkerGenes2021.Exercise.Solutions.html)
+
 - 15:25 - 15:35 **10 min break**
 - 15:35 - 16:30 Differential expression and abundance between conditions - Stephane Ballereau
     + [Slides](scRNAseq/Slides/multiSplCompSlides.html)
