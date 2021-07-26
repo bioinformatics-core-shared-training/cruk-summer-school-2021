@@ -219,12 +219,11 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
 - ChIP-seq data analysis (Shamith, Izzy & Junfan)
     + Lecture 1: [Introduction to ChIP-seq](ChIPSeq/slides/Introduction.pdf) 
     + Lecture 2: [Introduction to Peak Calling](ChIPSeq/slides/PeakCalling.pdf) 
-    + Practical 1: [Peak calling with MACS2](ChIPSeq/scripts/ChIP_Practical1_peakcall.html)
+    + Practical 1: [Peak calling with MACS2](ChIPSeq/scripts/ChIP_Practical1_peakcalling_2021.html)
     + Lecture 3: [Quality control methods for ChIP-seq](ChIPSeq/slides/EvaluatingChIPseqData.pdf)
     + Practical 2: [QC & Integrative Genome Viewer](ChIPSeq/scripts/ChIP_Practical2_qc.html) 
-    + Lecture 4: [Downstream analysis of ChIP-seq](ChIPSeq/slides/DownstreamAnalysis.pdf) 
-    + Practical 3: [Differential binding analysis: Diffbind](ChIPSeq/scripts/ChIP_Practical3_DiffBind.html) 
-    + Practical 4: [Downstream analysis of ChIP-seq](ChIPSeq/scripts/ChIP_Practical4_downstream.html) 
+    + Lecture 3: [Downstream analysis of ChIP-seq](ChIPSeq/slides/DownstreamAnalysis.pdf) 
+    + Practical 3: [Downstream analysis of ChIP-seq](ChIPSeq/scripts/ChIP_Practical3_DownstremAnalysis_2021.html) 
  
 - 12:30 - 13:30; LUNCH BREAK
 
