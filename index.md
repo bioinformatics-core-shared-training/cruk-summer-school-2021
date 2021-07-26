@@ -212,7 +212,9 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Slides](scRNAseq/Slides/TrajectoryInferenceSlides.html)
     + [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html)
     
-<hr>
+
+
+
 # Day 5 (July 27th)
 
 - 09:30 - 17:00; 
