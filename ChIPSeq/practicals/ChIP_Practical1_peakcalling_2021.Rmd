@@ -129,7 +129,7 @@ head -n 10 "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2.fast
 
 > Exercise 2
 >
->1. We would like to filter the same BAM file ("/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/tp53_r2.fastq_trimmed.fastq_sorted.bam") but this time, allowing 2 reads at the same position. Name the output file  "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2_.fastq_trimmed.fastq_sorted_filterdup2_exercise2.bed".
+>1. We would like to filter the same BAM file ("/home/ubuntu/Course_Materials/ChIPSeq/practicals/data/tp53_r2.fastq_trimmed.fastq_sorted.bam") but this time, allowing 2 reads at the same position. Name the output file  "/home/ubuntu/Course_Materials/ChIPSeq/practicals/output/tp53_r2.fastq_trimmed.fastq_sorted_filterdup2_exercise2.bed".
 >2. Check the first 10 lines of the output bed file using `head -n 10 filename.bed` command. Can you see the difference between this file and the one processed using `--keep-dup=1`?
 
 
