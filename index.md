@@ -225,7 +225,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + Lecture 3: [Quality control methods for ChIP-seq](ChIPSeq/slides/EvaluatingChIPseqData.pdf)
     + Practical 2: [QC & Integrative Genome Viewer](ChIPSeq/practicals/ChIP_Practical2_qc_2021.html) 
     + Lecture 4: [Downstream analysis of ChIP-seq](ChIPSeq/slides/DownstreamAnalysis.pdf) 
-    + Practical 3: [Downstream analysis of ChIP-seq](ChIPSeq/practicals/ChIP_Practical3_DownstremAnalysis_2021.html) 
+    + Practical 3: [Downstream analysis of ChIP-seq](ChIPSeq/practicals/ChIP_Practical3_DownstreamAnalysis_2021.html) 
  
 - 12:30 - 13:30; LUNCH BREAK
 
