@@ -204,7 +204,7 @@ results](RNAseq/Markdowns/11_Annotation_and_Visualisation.html) ([pdf](RNAseq/Ma
     + [Practical](scRNAseq/Markdowns/multiSplComp.html)     
     <!-- + [Exercise Solutions](scRNAseq/Markdowns/multiSplComp_exercise_solutions.html) -->
 
-- 16:30 - 17:30 [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html) - Zeynep Kalender Atak
+- 16:30 - 17:30 Trajectories - Zeynep Kalender Atak
     + [Slides](TrajectoryInferenceSlides.html)
     + [Trajectories](scRNAseq/Markdowns/pseudoTime_2021.html)
     
